@@ -1,0 +1,1295 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kiddy Kids Nursery &amp; Pre-School | حضانة وروضة كيدي كيدز — Nursery, KG1, KG2 &amp; KG3</title>
+<meta name="description" content="Kiddy Kids Nursery &amp; Pre-School — a safe, playful bilingual early-learning home for children from 4 months to 6 years, with a Summer Camp in July &amp; August. حضانة وروضة كيدي كيدز: بيئة تعليمية آمنة وممتعة ثنائية اللغة من عمر 4 أشهر إلى 6 سنوات.">
+<link rel="icon" type="image/jpeg" href="logo.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&amp;family=Baloo+Bhaijaan+2:wght@500;600;700;800&amp;family=Inter:wght@400;500;600;700&amp;family=Cairo:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<style>
+  :root{
+    --cream:#EAF4FC;
+    --cream-soft:#DCEDFA;
+    --paper:#FFFFFF;
+    --ink:#23303F;
+    --ink-soft:#54677E;
+    --night:#1F3C66;
+    --night-2:#16284A;
+    --coral:#FF7A45;
+    --coral-dark:#E6592A;
+    --coral-light:#FFE0CC;
+    --sage:#6F9C82;
+    --sage-light:#DCEBE0;
+    --sun:#FFC72C;
+    --sun-light:#FFF2C7;
+    --red:#E84855;
+    --red-dark:#C72E3A;
+    --red-light:#FFDADD;
+    --blue-deep:#16284A;
+    --line:#D7E6F5;
+    --shadow:rgba(22,40,74,0.14);
+    --font-display:'Baloo 2', sans-serif;
+    --font-body:'Inter', sans-serif;
+    --radius-lg:28px;
+    --radius-md:18px;
+    --radius-sm:12px;
+  }
+  html[dir="rtl"]{
+    --font-display:'Baloo Bhaijaan 2', sans-serif;
+    --font-body:'Cairo', sans-serif;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{-webkit-text-size-adjust:100%;}
+  @media (prefers-reduced-motion:no-preference){ html{scroll-behavior:smooth;} }
+  body{
+    font-family:var(--font-body);
+    background:var(--cream);
+    color:var(--ink);
+    line-height:1.65;
+    font-size:16px;
+    overflow-x:hidden;
+  }
+  img,svg{display:block;max-width:100%}
+  a{color:inherit;text-decoration:none}
+  ul{list-style:none}
+  button{font:inherit;cursor:pointer;background:none;border:none;color:inherit}
+  input,select{font:inherit}
+  h1,h2,h3,h4{font-family:var(--font-display);line-height:1.2;font-weight:700;color:var(--night)}
+  section{scroll-margin-top:84px}
+  .container{max-width:1180px;margin-inline:auto;padding-inline:clamp(20px,5vw,48px)}
+  .visually-hidden{position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden}
+
+  /* Skip link */
+  .skip-link{position:absolute;inset-inline-start:-999px;top:0;background:var(--night);color:#fff;padding:10px 16px;border-radius:0 0 10px 10px;z-index:200}
+  .skip-link:focus{inset-inline-start:12px}
+
+  :focus-visible{outline:3px solid var(--coral);outline-offset:3px;border-radius:6px}
+
+  /* Eyebrow */
+  .eyebrow{display:inline-flex;align-items:center;gap:8px;font-family:var(--font-display);font-weight:600;font-size:13.5px;letter-spacing:.02em;color:var(--coral-dark);background:var(--coral-light);padding:7px 16px;border-radius:999px;margin-bottom:14px}
+  .eyebrow svg{width:16px;height:16px}
+
+  /* Buttons */
+  .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;font-family:var(--font-display);font-weight:600;font-size:15.5px;padding:13px 26px;border-radius:999px;transition:transform .18s ease,box-shadow .18s ease,background .18s ease;white-space:nowrap}
+  .btn svg{width:18px;height:18px}
+  .btn-primary{background:var(--coral);color:#fff;box-shadow:0 10px 24px -8px rgba(255,122,89,.55)}
+  .btn-primary:hover{background:var(--coral-dark);transform:translateY(-2px)}
+  .btn-outline{background:transparent;color:var(--night);border:2px solid var(--night)}
+  .btn-outline:hover{background:var(--night);color:#fff;transform:translateY(-2px)}
+  .btn-light{background:var(--paper);color:var(--night);border:2px solid var(--line)}
+  .btn-light:hover{border-color:var(--night);transform:translateY(-2px)}
+  .btn-sm{padding:9px 18px;font-size:14px}
+
+  /* ---------- HEADER ---------- */
+  .site-header{position:sticky;top:0;z-index:100;background:rgba(251,245,234,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+  .header-inner{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-block:14px}
+  .brand{display:flex;align-items:center;gap:10px;font-family:var(--font-display);font-weight:700;font-size:17px;line-height:1.15;color:var(--night)}
+  .brand svg{width:40px;height:40px;flex-shrink:0}
+  .nav-desktop{display:none}
+  .nav-desktop ul{display:flex;align-items:center;gap:28px;font-weight:600;font-size:15px}
+  .nav-desktop a{position:relative;padding-block:6px;color:var(--ink-soft);transition:color .15s}
+  .nav-desktop a:hover{color:var(--coral-dark)}
+  .header-actions{display:flex;align-items:center;gap:10px}
+  .lang-toggle{display:flex;align-items:center;background:var(--cream-soft);border:1px solid var(--line);border-radius:999px;padding:3px;gap:2px;font-family:var(--font-body)}
+  .lang-toggle button{font-size:13px;font-weight:700;padding:6px 13px;border-radius:999px;color:var(--ink-soft);transition:background .15s,color .15s}
+  .lang-toggle button.active{background:var(--night);color:#fff}
+  .header-cta{display:none}
+  .menu-btn{display:inline-flex;align-items:center;justify-content:center;width:42px;height:42px;border-radius:12px;background:var(--cream-soft);border:1px solid var(--line)}
+  .menu-btn svg{width:22px;height:22px}
+  .menu-btn .icon-close{display:none}
+  .menu-btn[aria-expanded="true"] .icon-menu{display:none}
+  .menu-btn[aria-expanded="true"] .icon-close{display:block}
+
+  .mobile-menu{display:none;flex-direction:column;gap:4px;background:var(--paper);border-bottom:1px solid var(--line);padding:10px clamp(20px,5vw,48px) 22px}
+  .mobile-menu.open{display:flex}
+  .mobile-menu a{display:block;padding:12px 6px;font-weight:600;font-size:16px;border-bottom:1px solid var(--cream-soft)}
+  .mobile-menu .btn{margin-top:12px;width:100%}
+
+  @media (min-width:900px){
+    .nav-desktop{display:block}
+    .header-cta{display:inline-flex}
+    .menu-btn{display:none}
+    .mobile-menu{display:none !important}
+  }
+
+  /* ---------- HERO ---------- */
+  .hero{position:relative;padding-block:56px 70px;overflow:hidden}
+  .hero-blob{position:absolute;inset-inline-end:-120px;top:-80px;width:520px;height:520px;border-radius:50%;background:radial-gradient(circle at 35% 30%, var(--sun-light), transparent 70%);z-index:0;pointer-events:none}
+  .hero-blob-2{position:absolute;inset-inline-start:-160px;bottom:-160px;width:420px;height:420px;border-radius:50%;background:radial-gradient(circle at 60% 60%, var(--sage-light), transparent 70%);z-index:0;pointer-events:none}
+  .hero-grid{position:relative;z-index:1;display:grid;gap:42px;align-items:center}
+  .hero h1{font-size:clamp(34px,5vw,54px);margin-bottom:18px}
+  .hero h1 .accent{color:var(--coral)}
+  .hero p.lead{font-size:18px;color:var(--ink-soft);max-width:520px;margin-bottom:26px}
+  .hero-ctas{display:flex;flex-wrap:wrap;gap:14px;margin-bottom:30px}
+  .hero-trustline{display:flex;flex-wrap:wrap;align-items:center;gap:10px;font-size:14px;color:var(--ink-soft);font-weight:600}
+  .hero-trustline span.dot{width:5px;height:5px;border-radius:50%;background:var(--ink-soft);opacity:.5}
+  .hero-art{position:relative;justify-self:center;width:100%;max-width:480px;aspect-ratio:560/480}
+  .hero-art-overlay{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
+  .hero-photo-circle{position:absolute;top:50%;left:46%;transform:translate(-50%,-50%);width:66%;aspect-ratio:1;border-radius:50%;overflow:hidden;box-shadow:0 22px 50px -16px var(--shadow);border:7px solid #fff;background:var(--sage-light)}
+  .hero-photo-circle img{width:100%;height:100%;object-fit:cover;display:block}
+  @keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
+  @media (prefers-reduced-motion:no-preference){
+    .float-1{animation:bob 5s ease-in-out infinite}
+    .float-2{animation:bob 6.5s ease-in-out infinite .4s}
+    .float-3{animation:bob 4.5s ease-in-out infinite .8s}
+  }
+  @media (min-width:900px){
+    .hero-grid{grid-template-columns:1.05fr .95fr}
+  }
+
+  /* ---------- TRUST STRIP ---------- */
+  .trust-strip{background:var(--night);color:var(--cream)}
+  .trust-inner{display:flex;flex-wrap:wrap;justify-content:center;gap:14px 30px;padding-block:18px;font-size:14.5px;font-weight:600}
+  .trust-inner li{display:flex;align-items:center;gap:8px}
+  .trust-inner svg{width:17px;height:17px;color:var(--sun);flex-shrink:0}
+
+  /* ---------- SECTION HEADERS ---------- */
+  .section-head{max-width:640px;margin-bottom:44px}
+  .section-head.center{margin-inline:auto;text-align:center}
+  .section-head h2{font-size:clamp(26px,3.4vw,36px)}
+  .section-head p{color:var(--ink-soft);font-size:16px;margin-top:10px}
+
+  /* ---------- ABOUT ---------- */
+  .about{padding-block:80px}
+  .about-grid{display:grid;gap:36px}
+  .about-text p{color:var(--ink-soft);font-size:16.5px;margin-bottom:18px}
+  .value-chips{display:flex;flex-wrap:wrap;gap:12px;margin-top:6px}
+  .chip{display:flex;align-items:center;gap:9px;background:var(--paper);border:1px solid var(--line);border-radius:999px;padding:9px 16px 9px 12px;font-weight:600;font-size:14.5px;box-shadow:0 4px 14px -6px var(--shadow)}
+  html[dir="rtl"] .chip{padding:9px 12px 9px 16px}
+  .chip .badge{width:26px;height:26px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+  .chip svg{width:15px;height:15px}
+  .chip:nth-child(1) .badge{background:var(--coral-light);color:var(--coral-dark)}
+  .chip:nth-child(2) .badge{background:var(--sage-light);color:var(--sage)}
+  .chip:nth-child(3) .badge{background:var(--sun-light);color:#A6791A}
+  .about-card{background:var(--paper);border:1px solid var(--line);border-radius:var(--radius-lg);padding:32px;position:relative}
+  .about-card .quote-mark{font-family:var(--font-display);font-size:54px;color:var(--coral-light);line-height:1;margin-bottom:6px}
+  .about-card p{font-family:var(--font-display);font-size:21px;color:var(--night);font-weight:600;line-height:1.5}
+  .about-card .by{margin-top:16px;font-family:var(--font-body);font-size:14px;color:var(--ink-soft);font-weight:600}
+  @media (min-width:900px){ .about-grid{grid-template-columns:1.1fr .9fr} }
+
+  /* ---------- PROGRAMS / JOURNEY ---------- */
+  .programs{padding-block:80px;background:var(--cream-soft);position:relative;overflow:hidden}
+  .journey{position:relative}
+  .journey-wave{display:none}
+  .journey-list{display:flex;flex-direction:column;gap:18px;position:relative}
+  .journey-list::before{content:"";position:absolute;inset-inline-start:27px;top:8px;bottom:8px;width:2px;background-image:linear-gradient(var(--ink-soft) 0 6px, transparent 6px 12px);background-size:2px 12px;opacity:.35}
+  .stage{position:relative;display:flex;gap:18px;align-items:flex-start;background:var(--paper);border:1px solid var(--line);border-radius:var(--radius-md);padding:22px 22px 22px 22px;z-index:1}
+  .stage-node{flex-shrink:0;width:56px;height:56px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:var(--font-display);font-weight:700;box-shadow:0 6px 16px -6px var(--shadow)}
+  .stage-node svg{width:26px;height:26px}
+  .stage:nth-of-type(1) .stage-node{background:var(--sage-light);color:var(--sage)}
+  .stage:nth-of-type(2) .stage-node{background:var(--sun-light);color:#A6791A}
+  .stage:nth-of-type(3) .stage-node{background:var(--coral-light);color:var(--coral-dark)}
+  .stage:nth-of-type(4) .stage-node{background:var(--red-light);color:var(--red-dark)}
+  .stage-body h3{display:flex;align-items:baseline;gap:10px;font-size:21px;flex-wrap:wrap}
+  .stage-body .age{font-family:var(--font-body);font-size:13.5px;font-weight:700;color:var(--ink-soft);background:var(--cream-soft);padding:3px 10px;border-radius:999px}
+  .stage-body p{color:var(--ink-soft);margin-top:8px;font-size:15.5px}
+  @media (min-width:900px){
+    .journey-wave{display:block;position:absolute;inset-inline:0;top:60px;height:120px;z-index:0;opacity:.6}
+    .journey-list{flex-direction:row;align-items:stretch;gap:24px}
+    .journey-list::before{display:none}
+    .stage{flex-direction:column;text-align:center;align-items:center;flex:1;padding:30px 24px}
+    .stage:nth-of-type(1){transform:translateY(26px)}
+    .stage:nth-of-type(2){transform:translateY(-6px)}
+    .stage:nth-of-type(3){transform:translateY(20px)}
+    .stage:nth-of-type(4){transform:translateY(-10px)}
+    .stage-body h3{justify-content:center}
+  }
+
+  /* ---------- WHY US ---------- */
+  .why{padding-block:80px}
+  .why-grid{display:grid;gap:20px;grid-template-columns:1fr}
+  .feature{background:var(--paper);border:1px solid var(--line);border-radius:var(--radius-md);padding:28px;transition:transform .2s,box-shadow .2s}
+  .feature:hover{transform:translateY(-4px);box-shadow:0 16px 30px -14px var(--shadow)}
+  .feature .badge{width:52px;height:52px;border-radius:16px;display:flex;align-items:center;justify-content:center;margin-bottom:16px}
+  .feature .badge svg{width:26px;height:26px}
+  .feature:nth-child(1) .badge{background:var(--coral-light);color:var(--coral-dark)}
+  .feature:nth-child(2) .badge{background:var(--sun-light);color:#A6791A}
+  .feature:nth-child(3) .badge{background:var(--sage-light);color:var(--sage)}
+  .feature:nth-child(4) .badge{background:#E3E9F5;color:var(--night)}
+  .feature h3{font-size:18.5px;margin-bottom:8px}
+  .feature p{color:var(--ink-soft);font-size:15px}
+  @media (min-width:700px){ .why-grid{grid-template-columns:repeat(2,1fr)} }
+  @media (min-width:1080px){ .why-grid{grid-template-columns:repeat(4,1fr)} }
+
+  /* ---------- CONTACT ---------- */
+  .contact{padding-block:80px;background:var(--night);color:var(--cream);position:relative;overflow:hidden}
+  .contact::before{content:"";position:absolute;inset-inline-end:-100px;top:-100px;width:360px;height:360px;border-radius:50%;background:radial-gradient(circle, rgba(255,200,87,.14), transparent 70%)}
+  .contact .section-head h2{color:#fff}
+  .contact .section-head p{color:#C9D2E2}
+  .contact-grid{position:relative;z-index:1;display:grid;gap:28px}
+  .info-card{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.14);border-radius:var(--radius-lg);padding:30px}
+  .info-row{display:flex;gap:14px;align-items:flex-start;margin-bottom:20px}
+  .info-row:last-child{margin-bottom:0}
+  .info-row .badge{flex-shrink:0;width:40px;height:40px;border-radius:12px;background:rgba(255,255,255,.1);display:flex;align-items:center;justify-content:center}
+  .info-row svg{width:19px;height:19px;color:var(--sun)}
+  .info-row strong{display:block;font-size:13.5px;color:#9FB0CC;font-weight:700;margin-bottom:3px}
+  .info-row .val{font-size:15.5px;font-weight:600;color:inherit}
+  .info-card .wa-btn{margin-top:10px;width:100%;background:#fff;color:var(--night)}
+  .info-card .wa-btn:hover{background:var(--sun)}
+
+  .form-card{background:var(--paper);color:var(--ink);border-radius:var(--radius-lg);padding:30px}
+  .form-card h3{font-size:20px;margin-bottom:4px}
+  .form-card .sub{color:var(--ink-soft);font-size:14.5px;margin-bottom:20px}
+  .field{margin-bottom:16px}
+  .field label{display:block;font-size:13.5px;font-weight:700;color:var(--night);margin-bottom:6px}
+  .field input,.field select{width:100%;padding:12px 14px;border:1.5px solid var(--line);border-radius:var(--radius-sm);background:var(--cream-soft);font-size:15px;color:var(--ink);transition:border-color .15s}
+  .field input:focus,.field select:focus{border-color:var(--coral);background:#fff}
+  .hp-field{position:absolute;inset-inline-start:-9999px;top:auto;width:1px;height:1px;overflow:hidden}
+  .form-card .btn{width:100%;margin-top:4px}
+  .gcal-btn-wrap{min-height:52px}
+  .gcal-btn-wrap iframe{max-width:100%}
+  .gcal-btn-wrap .goog-inline-block{width:100% !important}
+  .gcal-fallback-link{display:block;text-align:center;margin-top:10px;font-size:14px;font-weight:600;color:var(--ink-soft);text-decoration:underline}
+  .gcal-fallback-link:hover{color:var(--coral-dark)}
+  .form-divider{display:flex;align-items:center;gap:12px;margin:22px 0 16px;font-size:13px;font-weight:700;color:var(--ink-soft)}
+  .form-divider::before,.form-divider::after{content:"";flex:1;height:1px;background:var(--line)}
+  .form-note{display:none;margin-top:14px;background:var(--sage-light);color:#2c4a3a;border-radius:var(--radius-sm);padding:14px 16px;font-size:14.5px;font-weight:600}
+  .form-note.show{display:block}
+  .form-note-error{background:var(--red-light);color:var(--red-dark)}
+  @media (min-width:980px){ .contact-grid{grid-template-columns:.85fr 1.15fr} }
+
+  /* ---------- FOOTER ---------- */
+  .site-footer{background:var(--night-2);color:#C9D2E2;padding-block:54px 26px}
+  .footer-grid{display:grid;gap:36px}
+  .footer-brand{display:flex;align-items:center;gap:10px;font-family:var(--font-display);font-weight:700;font-size:20px;color:#fff;margin-bottom:12px}
+  .footer-brand svg{width:36px;height:36px}
+  .footer-col p{font-size:14.5px;color:#9FB0CC;max-width:280px}
+  .footer-col h4{font-family:var(--font-display);color:#fff;font-size:15px;margin-bottom:14px}
+  .footer-col ul{display:flex;flex-direction:column;gap:10px;font-size:14.5px}
+  .footer-col a:hover{color:#fff}
+  .footer-col .info-row{margin-bottom:14px}
+  .footer-col .info-row .badge{width:32px;height:32px;background:rgba(255,255,255,.08)}
+  .footer-col .info-row svg{width:16px;height:16px}
+  .footer-col .info-row .val{font-size:14px;color:inherit}
+  .social-row{display:flex;gap:10px;margin-top:14px}
+  .social-row a{width:38px;height:38px;border-radius:10px;background:rgba(255,255,255,.08);display:flex;align-items:center;justify-content:center;transition:background .15s}
+  .social-row a:hover{background:var(--coral)}
+  .social-row svg{width:18px;height:18px}
+  .footer-bottom{margin-top:40px;padding-top:22px;border-top:1px solid rgba(255,255,255,.1);display:flex;flex-wrap:wrap;gap:14px;align-items:center;justify-content:space-between;font-size:13.5px;color:#8294B3}
+  .footer-bottom .lang-toggle{background:rgba(255,255,255,.06);border-color:rgba(255,255,255,.14)}
+  .footer-bottom .lang-toggle button{color:#C9D2E2}
+  .footer-bottom .lang-toggle button.active{background:var(--coral);color:#fff}
+  @media (min-width:760px){ .footer-grid{grid-template-columns:1.3fr 1fr 1fr} }
+
+  /* ---------- WHATSAPP FAB ---------- */
+  .wa-fab{position:fixed;inset-inline-end:18px;bottom:18px;z-index:90;width:58px;height:58px;border-radius:50%;background:#25D366;display:flex;align-items:center;justify-content:center;box-shadow:0 10px 24px -6px rgba(0,0,0,.35)}
+  .wa-fab svg{width:28px;height:28px;color:#fff}
+  .wa-fab:hover{transform:scale(1.06)}
+
+  /* ---------- REVEAL ---------- */
+  .reveal{opacity:0;transform:translateY(18px);transition:opacity .6s ease,transform .6s ease}
+  .reveal.is-visible{opacity:1;transform:translateY(0)}
+  @media (prefers-reduced-motion:reduce){ .reveal{opacity:1;transform:none;transition:none} }
+
+  /* ---------- LOGO IMAGE ---------- */
+  .brand img,.footer-brand img{width:84px;height:84px;border-radius:50%;object-fit:cover;flex-shrink:0;border:2px solid var(--sun)}
+  .footer-brand img{width:70px;height:70px}
+
+  /* ---------- SUBJECT CHIPS (KG2/KG3) ---------- */
+  .subjects{display:flex;flex-wrap:wrap;gap:7px;justify-content:center;margin-top:12px}
+  .subjects span{font-size:12px;font-weight:700;font-family:var(--font-body);background:var(--cream-soft);color:var(--night);border:1px solid var(--line);border-radius:999px;padding:5px 11px}
+
+  /* ---------- SUMMER CAMP PANEL ---------- */
+  .summer-panel{margin-top:34px;position:relative;border-radius:var(--radius-lg);overflow:hidden;background:linear-gradient(120deg,var(--sun) 0%,var(--coral) 55%,var(--red) 100%);padding:38px 28px;color:#fff;isolation:isolate}
+  .summer-panel::before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 14% 18%, rgba(255,255,255,.35), transparent 40%),radial-gradient(circle at 90% 80%, rgba(255,255,255,.25), transparent 45%);z-index:0}
+  .summer-panel-inner{position:relative;z-index:1}
+  .summer-head{display:flex;flex-wrap:wrap;align-items:center;gap:14px;justify-content:space-between;margin-bottom:22px}
+  .summer-head h3{color:#fff;font-size:clamp(22px,3vw,28px);display:flex;align-items:center;gap:10px}
+  .summer-badge{display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,.22);backdrop-filter:blur(4px);font-family:var(--font-display);font-weight:700;font-size:14px;padding:8px 16px;border-radius:999px}
+  .summer-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+  @media (min-width:640px){ .summer-grid{grid-template-columns:repeat(3,1fr)} }
+  @media (min-width:980px){ .summer-grid{grid-template-columns:repeat(7,1fr)} }
+  .summer-item{background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.3);border-radius:var(--radius-md);padding:16px 10px;text-align:center;font-weight:700;font-size:13.5px;transition:transform .2s,background .2s}
+  .summer-item:hover{transform:translateY(-4px);background:rgba(255,255,255,.27)}
+  .summer-item .emoji{font-size:30px;display:block;margin-bottom:8px}
+
+  /* ---------- FACILITY (3D CIRCULAR GALLERY) ---------- */
+  .facility{padding-block:80px;background:var(--cream-soft);position:relative;overflow:hidden}
+  .facility-blob{position:absolute;inset-inline-start:-140px;top:-100px;width:380px;height:380px;border-radius:50%;background:radial-gradient(circle, var(--sun-light), transparent 70%);z-index:0;pointer-events:none}
+  .facility-note{max-width:640px;margin:0 auto 8px;text-align:center;background:var(--paper);border:1px dashed var(--coral);border-radius:var(--radius-md);padding:14px 20px;font-size:14px;color:var(--ink-soft);font-weight:600}
+
+  /* ---------- TRUE 3D PHOTO SPHERE (all facility photos, drag to rotate) ---------- */
+  .sphere3d-wrap{position:relative;z-index:1;perspective:1300px;height:480px;display:flex;align-items:center;justify-content:center;touch-action:none;cursor:grab;-webkit-user-select:none;user-select:none}
+  .sphere3d-wrap:active{cursor:grabbing}
+  .sphere3d{position:relative;width:0;height:0;transform-style:preserve-3d}
+  .sphere3d-item{position:absolute;top:50%;left:50%;width:92px;height:92px;margin:-46px 0 0 -46px;border-radius:50%;overflow:hidden;border:4px solid #fff;box-shadow:0 12px 26px -10px var(--shadow);cursor:pointer;background-color:var(--cream-soft);will-change:transform,opacity}
+  .sphere3d-item img{width:100%;height:100%;object-fit:cover;display:block;pointer-events:none}
+  @media (min-width:700px){ .sphere3d-wrap{height:540px} .sphere3d-item{width:112px;height:112px;margin:-56px 0 0 -56px} }
+  .sphere3d-hint{display:block;text-align:center;font-size:13px;color:var(--ink-soft);font-weight:600;margin-top:6px}
+  .sphere3d-hint svg{width:15px;height:15px;vertical-align:-3px;margin-inline-end:4px}
+
+  .fg-lightbox{display:none;position:fixed;inset:0;background:rgba(20,20,25,.9);z-index:999;align-items:center;justify-content:center;padding:24px}
+  .fg-lightbox.show{display:flex}
+  .fg-lightbox img{max-width:92vw;max-height:88vh;border-radius:12px;box-shadow:0 20px 60px rgba(0,0,0,.5)}
+
+  /* ---------- ACTIVITIES TEASER (homepage, below Our Facility) ---------- */
+  .activities-teaser{padding-block:70px;background:var(--paper);position:relative}
+  .at-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:30px}
+  @media (min-width:640px){ .at-grid{grid-template-columns:repeat(3,1fr)} }
+  @media (min-width:960px){ .at-grid{grid-template-columns:repeat(6,1fr)} }
+  .at-item{aspect-ratio:1;border-radius:var(--radius-md);overflow:hidden;box-shadow:0 8px 18px -10px var(--shadow)}
+  .at-item img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .35s ease}
+  .at-item:hover img{transform:scale(1.07)}
+  .at-cta{display:flex;justify-content:center;margin-top:28px}
+  .fg-lightbox-close{position:absolute;top:18px;inset-inline-end:22px;background:rgba(255,255,255,.15);color:#fff;border:0;width:44px;height:44px;border-radius:50%;font-size:26px;line-height:1;cursor:pointer}
+  .fg-lightbox-close:hover{background:rgba(255,255,255,.3)}
+
+  /* ---------- CARTOON DECORATIONS ---------- */
+  .cartoon-row{display:flex;justify-content:center;gap:18px;font-size:34px;margin-top:18px;opacity:.9}
+</style>
+
+<style>
+  /* ---------- CUSTOM BOOKING WIDGET (time-slot picker) ---------- */
+  .booking-date{width:100%;padding:12px 14px;border:1.5px solid var(--line);border-radius:var(--radius-sm);font-size:15px;font-family:var(--font-body);margin-bottom:14px;background:#fff;color:var(--ink)}
+  .slots-label{font-family:var(--font-display);font-weight:700;font-size:14.5px;color:var(--ink);margin-bottom:8px;display:flex;align-items:center;gap:6px}
+  .slots-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:6px}
+  @media (min-width:420px){ .slots-grid{grid-template-columns:repeat(4,1fr)} }
+  .slot-btn{padding:9px 4px;border-radius:10px;border:1.5px solid var(--line);background:#fff;color:var(--ink);font-weight:700;font-size:13px;font-family:var(--font-body);cursor:pointer;transition:all .15s ease;text-align:center}
+  .slot-btn:hover{border-color:var(--coral)}
+  .slot-btn.selected{background:var(--coral);border-color:var(--coral);color:#fff}
+  .slot-btn.taken{background:var(--cream-soft);color:var(--ink-soft);opacity:.5;text-decoration:line-through;cursor:not-allowed;border-color:var(--line)}
+  .slots-empty{font-size:13.5px;color:var(--ink-soft);padding:10px 2px}
+  .slots-hint{font-size:12.5px;color:var(--ink-soft);margin-top:4px;margin-bottom:16px}
+</style>
+</head>
+<body>
+
+<a class="skip-link" data-ar="تخطى إلى المحتوى" data-en="Skip to content" href="#main">تخطى إلى المحتوى</a>
+
+<!-- Icon sprite -->
+<svg style="display:none" aria-hidden="true">
+  <symbol id="icon-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9.5"></circle><path d="M8 12.5l2.6 2.6L16 9.5"></path></symbol>
+  <symbol id="icon-shield" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v5c0 5.2-3.6 8.2-7 9.3-3.4-1.1-7-4.1-7-9.3V6l7-3z"></path><path d="M9 12.2l2.1 2.1L15.5 10"></path></symbol>
+  <symbol id="icon-bulb" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="10" r="5.2"></circle><path d="M10.2 9.8c.5-1.1 1.6-1.6 2.6-1"></path><rect x="9.8" y="15.4" width="4.4" height="3" rx="1"></rect><line x1="12" y1="2" x2="12" y2="3.6"></line><line x1="5" y1="6.2" x2="6.2" y2="7.2"></line><line x1="19" y1="6.2" x2="17.8" y2="7.2"></line></symbol>
+  <symbol id="icon-people" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8.4" r="2.6"></circle><path d="M4 19c0-3.3 2.2-5.4 5-5.4s5 2.1 5 5.4"></path><circle cx="16.6" cy="9.2" r="2"></circle><path d="M14 14.4c.6-.6 1.4-1 2.6-1 2.4 0 4 1.9 4 4.6"></path></symbol>
+  <symbol id="icon-bubble" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6.2A2.2 2.2 0 0 1 6.2 4h11.6A2.2 2.2 0 0 1 20 6.2v7.4a2.2 2.2 0 0 1-2.2 2.2H10l-4 3.6v-3.6H6.2A2.2 2.2 0 0 1 4 13.6V6.2z"></path><text x="7.3" y="12.4" font-size="6.4" stroke="none" fill="currentColor" font-family="sans-serif" font-weight="700">A</text><text x="13.4" y="12.6" font-size="6.6" stroke="none" fill="currentColor" font-family="sans-serif" font-weight="700">ع</text></symbol>
+  <symbol id="icon-sprout" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21v-8.4"></path><path d="M12 13c-4.4 0-7.4-3.2-7.4-7.4 4.4 0 7.4 3.2 7.4 7.4z"></path><path d="M12 13c4.4 0 7.4-3.2 7.4-7.4-4.4 0-7.4 3.2-7.4 7.4z"></path></symbol>
+  <symbol id="icon-blocks" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="10.5" width="8.6" height="8.6" rx="2"></rect><rect x="12.4" y="5" width="8.6" height="8.6" rx="2"></rect></symbol>
+  <symbol id="icon-cap" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5l9.3 4.3L12 13.6 2.7 9.3 12 5z"></path><path d="M6.4 11.2v4c0 1.7 2.7 3.3 5.6 3.3s5.6-1.6 5.6-3.3v-4"></path><path d="M21 9.7v5.4"></path></symbol>
+  <symbol id="icon-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s7-6.3 7-11.5A7 7 0 1 0 5 9.5C5 14.7 12 21 12 21z"></path><circle cx="12" cy="9.5" r="2.4"></circle></symbol>
+  <symbol id="icon-clock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><path d="M12 7.5V12l3.2 2"></path></symbol>
+  <symbol id="icon-phone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6.6 3.8h2.7l1.4 4.3-2 1.6a11.4 11.4 0 0 0 5.6 5.6l1.6-2 4.3 1.4v2.7c0 1.2-1 2.1-2.2 2-5.8-.6-10.5-5.3-11.1-11.1-.1-1.2.8-2.2 2-2.2z"></path></symbol>
+  <symbol id="icon-mail" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5.5" width="18" height="13" rx="2.4"></rect><path d="M4 7l8 5.6L20 7"></path></symbol>
+  <symbol id="icon-menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="4" y1="7" x2="20" y2="7"></line><line x1="4" y1="12" x2="20" y2="12"></line><line x1="4" y1="17" x2="20" y2="17"></line></symbol>
+  <symbol id="icon-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="5" y1="5" x2="19" y2="19"></line><line x1="19" y1="5" x2="5" y2="19"></line></symbol>
+  <symbol id="icon-whatsapp" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20l1.3-4A8 8 0 1 1 9 18.6L4 20z"></path><path d="M9 11c.3 1.6 2 3.3 3.6 3.6"></path></symbol>
+  <symbol id="icon-camera" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="6.5" width="18" height="13" rx="3"></rect><circle cx="12" cy="13" r="3.6"></circle><line x1="8" y1="6.5" x2="9.5" y2="4.5"></line><line x1="16" y1="6.5" x2="14.5" y2="4.5"></line></symbol>
+  <symbol id="icon-facebook" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 21v-7.2h2.4l.4-2.8h-2.8v-1.8c0-.8.2-1.4 1.4-1.4h1.5V5.3C16.9 5.2 16 5.1 15 5.1c-2.2 0-3.7 1.3-3.7 3.8v2.1H8.9v2.8h2.4V21"></path></symbol>
+  <symbol id="icon-tiktok" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M16.5 3v9.6a3.9 3.9 0 1 1-3.9-3.9c.2 0 .4 0 .6.04"></path><path d="M16.5 3c.2 2.1 1.7 3.7 3.8 3.9"></path></symbol>
+  <symbol id="icon-calendar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="5" width="17" height="16" rx="2.4"></rect><line x1="3.5" y1="9.5" x2="20.5" y2="9.5"></line><line x1="8" y1="3" x2="8" y2="6.6"></line><line x1="16" y1="3" x2="16" y2="6.6"></line></symbol>
+  <symbol id="icon-sun-mark" viewBox="0 0 60 60"></symbol>
+</svg>
+
+<!-- ============ HEADER ============ -->
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="#home" class="brand">
+      <img src="logo.jpg" alt="Kiddy Kids Nursery &amp; Pre-School logo">
+      <span data-ar="Kiddy Kids Nursery Pre-School" data-en="Kiddy Kids Nursery Pre-School">Kiddy Kids Nursery Pre-School</span>
+    </a>
+
+    <nav class="nav-desktop" aria-label="Primary">
+      <ul>
+        <li><a href="#home" data-ar="الرئيسية" data-en="Home">الرئيسية</a></li>
+        <li><a href="#about" data-ar="من نحن" data-en="About">من نحن</a></li>
+        <li><a href="#programs" data-ar="برامجنا" data-en="Programs">برامجنا</a></li>
+        <li><a href="#facility" data-ar="منشأتنا" data-en="Our Facility">منشأتنا</a></li>
+        <li><a href="activities.html" data-ar="الأنشطة" data-en="Activities">الأنشطة</a></li>
+        <li><a href="#why" data-ar="لماذا نحن" data-en="Why Us">لماذا نحن</a></li>
+        <li><a href="#contact" data-ar="تواصل معنا" data-en="Contact">تواصل معنا</a></li>
+      </ul>
+    </nav>
+
+    <div class="header-actions">
+      <div class="lang-toggle" role="group" aria-label="Language / اللغة">
+        <button type="button" id="langArBtn" class="active" data-lang="ar">AR</button>
+        <button type="button" id="langEnBtn" data-lang="en">EN</button>
+      </div>
+      <a href="#contact" class="btn btn-primary header-cta btn-sm" data-ar="احجزوا زيارة" data-en="Book a Visit">احجزوا زيارة</a>
+      <button type="button" class="menu-btn" id="menuBtn" aria-label="Menu" aria-expanded="false" aria-controls="mobileMenu">
+        <svg class="icon-menu" aria-hidden="true"><use href="#icon-menu"></use></svg>
+        <svg class="icon-close" aria-hidden="true"><use href="#icon-close"></use></svg>
+      </button>
+    </div>
+  </div>
+
+  <nav class="mobile-menu" id="mobileMenu" aria-label="Mobile">
+    <a href="#home" data-ar="الرئيسية" data-en="Home">الرئيسية</a>
+    <a href="#about" data-ar="من نحن" data-en="About">من نحن</a>
+    <a href="#programs" data-ar="برامجنا" data-en="Programs">برامجنا</a>
+    <a href="#facility" data-ar="منشأتنا" data-en="Our Facility">منشأتنا</a>
+    <a href="activities.html" data-ar="الأنشطة" data-en="Activities">الأنشطة</a>
+    <a href="#why" data-ar="لماذا نحن" data-en="Why Us">لماذا نحن</a>
+    <a href="#contact" data-ar="تواصل معنا" data-en="Contact">تواصل معنا</a>
+    <a href="#contact" class="btn btn-primary" data-ar="احجزوا زيارة" data-en="Book a Visit">احجزوا زيارة</a>
+  </nav>
+</header>
+
+<main id="main">
+
+  <!-- ============ HERO ============ -->
+  <section id="home" class="hero">
+    <div class="hero-blob"></div>
+    <div class="hero-blob-2"></div>
+    <div class="container hero-grid">
+      <div>
+        <span class="eyebrow">
+          <svg aria-hidden="true"><use href="#icon-sprout"></use></svg>
+          <span data-ar="من عمر 4 أشهر حتى 6 سنوات" data-en="Ages 4 months – 6 years · Nursery to KG3">من عمر 4 أشهر حتى 6 سنوات</span>
+        </span>
+        <h1 data-ar-html="نلعب، نتعلّم، <span class=&quot;accent&quot;>نكبر معًا</span>" data-en-html="We Play, We Learn, <span class=&quot;accent&quot;>We Grow Together</span>">نلعب، نتعلّم، <span class="accent">نكبر معًا</span></h1>
+        <p class="lead" data-ar="في Kiddy Kids نقدّم بيئة تعليمية آمنة وممتعة تساعد طفلك على اكتشاف العالم وتنمية مهاراته بثقة، بمنهج ثنائي اللغة عربي وإنجليزي." data-en="At Kiddy Kids, we create a safe, joyful learning space where your child discovers the world and builds confidence — with everyday bilingual Arabic &amp; English learning.">في Kiddy Kids نقدّم بيئة تعليمية آمنة وممتعة تساعد طفلك على اكتشاف العالم وتنمية مهاراته بثقة، بمنهج ثنائي اللغة عربي وإنجليزي.</p>
+        <div class="hero-ctas">
+          <a href="#contact" class="btn btn-primary" data-ar="سجّلوا طفلكم الآن" data-en="Enroll Your Child">سجّلوا طفلكم الآن</a>
+          <a href="https://wa.me/97332314680" target="_blank" rel="noopener" class="btn btn-outline">
+            <svg aria-hidden="true"><use href="#icon-whatsapp"></use></svg>
+            <span data-ar="تواصل واتساب" data-en="Chat on WhatsApp">تواصل واتساب</span>
+          </a>
+        </div>
+        <div class="hero-trustline">
+          <span data-ar="بيئة آمنة ونظيفة" data-en="Safe &amp; clean spaces">بيئة آمنة ونظيفة</span>
+          <span class="dot"></span>
+          <span data-ar="منهج ثنائي اللغة" data-en="Bilingual curriculum">منهج ثنائي اللغة</span>
+          <span class="dot"></span>
+          <span data-ar="معلمات متخصصات" data-en="Caring, trained staff">معلمات متخصصات</span>
+        </div>
+      </div>
+
+      <div class="hero-art" aria-hidden="true">
+        <div class="hero-photo-circle">
+          <img src="images/facility/facility1.jpg" alt="">
+        </div>
+        <svg viewBox="0 0 560 480" role="img" class="hero-art-overlay">
+          <!-- sun -->
+          <g class="float-1">
+            <circle cx="468" cy="78" r="34" fill="var(--sun)"></circle>
+            <g stroke="var(--sun)" stroke-width="6" stroke-linecap="round">
+              <line x1="468" y1="20" x2="468" y2="6"></line>
+              <line x1="468" y1="150" x2="468" y2="136"></line>
+              <line x1="410" y1="78" x2="396" y2="78"></line>
+              <line x1="526" y1="20" x2="516" y2="30"></line>
+              <line x1="420" y1="30" x2="430" y2="40"></line>
+            </g>
+          </g>
+
+          <!-- cloud -->
+          <g class="float-2" fill="#FFFFFF" stroke="var(--line)" stroke-width="1.5">
+            <ellipse cx="95" cy="95" rx="46" ry="30"></ellipse>
+            <circle cx="125" cy="80" r="26"></circle>
+            <circle cx="70" cy="80" r="22"></circle>
+          </g>
+
+          <!-- ABC blocks -->
+          <g transform="translate(70,250)">
+            <rect x="-2" y="60" width="86" height="58" rx="12" fill="var(--coral)" transform="rotate(-5 41 89)"></rect>
+            <text x="41" y="98" transform="rotate(-5 41 89)" text-anchor="middle" font-family="'Baloo 2',sans-serif" font-size="30" fill="#fff" font-weight="700">A</text>
+            <rect x="6" y="6" width="76" height="54" rx="12" fill="var(--sage)" transform="rotate(4 44 33)"></rect>
+            <text x="44" y="42" transform="rotate(4 44 33)" text-anchor="middle" font-family="'Baloo 2',sans-serif" font-size="26" fill="#fff" font-weight="700">B</text>
+            <rect x="18" y="-46" width="64" height="50" rx="12" fill="var(--sun)" transform="rotate(-3 50 -21)"></rect>
+            <text x="50" y="-12" transform="rotate(-3 50 -21)" text-anchor="middle" font-family="'Baloo 2',sans-serif" font-size="24" fill="var(--night)" font-weight="700">C</text>
+          </g>
+
+          <!-- sparkles -->
+          <g fill="var(--coral)" class="float-2">
+            <path d="M420 220 l5 12 12 5 -12 5 -5 12 -5 -12 -12 -5 12 -5z"></path>
+          </g>
+          <g fill="var(--sage)" class="float-1">
+            <path d="M170 150 l4 9 9 4 -9 4 -4 9 -4 -9 -9 -4 9 -4z"></path>
+          </g>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TRUST STRIP ============ -->
+  <div class="trust-strip">
+    <ul class="container trust-inner">
+      <li><svg aria-hidden="true"><use href="#icon-check"></use></svg><span data-ar="بيئة آمنة ومراقَبة" data-en="Safe, supervised spaces">بيئة آمنة ومراقَبة</span></li>
+      <li><svg aria-hidden="true"><use href="#icon-check"></use></svg><span data-ar="عربي وإنجليزي يوميًا" data-en="Arabic &amp; English daily">عربي وإنجليزي يوميًا</span></li>
+      <li><svg aria-hidden="true"><use href="#icon-check"></use></svg><span data-ar="التعلّم من خلال اللعب" data-en="Learning through play">التعلّم من خلال اللعب</span></li>
+      <li><svg aria-hidden="true"><use href="#icon-check"></use></svg><span data-ar="فريق متابع لكل طفل" data-en="One team, every child">فريق متابع لكل طفل</span></li>
+    </ul>
+  </div>
+  <div class="cartoon-row" aria-hidden="true">🧸 🚌 🎈 🖍️ 🦄 🧩</div>
+
+  <!-- ============ ABOUT ============ -->
+  <section id="about" class="about">
+    <div class="container about-grid">
+      <div class="about-text reveal">
+        <span class="eyebrow" style="background:var(--sage-light);color:#3d6650">
+          <svg aria-hidden="true"><use href="#icon-people"></use></svg>
+          <span data-ar="من نحن" data-en="Who we are">من نحن</span>
+        </span>
+        <h2 data-ar="بداية دافئة لمستقبل واثق" data-en="A warm start to a confident future">بداية دافئة لمستقبل واثق</h2>
+        <p data-ar="في Kiddy Kids نؤمن أن السنوات الأولى من حياة الطفل هي الأساس لبناء شخصية واثقة ومبدعة. نوفّر بيئة تعليمية مليئة بالحب والمرح، حيث يتعلّم الطفل من خلال اللعب والاكتشاف والأنشطة التي تنمّي مهاراته العقلية والاجتماعية." data-en="At Kiddy Kids, we believe a child's earliest years lay the foundation for a confident, creative character. We offer a learning environment full of love and fun, where children learn through play, discovery, and activities that nurture their minds and social skills.">في Kiddy Kids نؤمن أن السنوات الأولى من حياة الطفل هي الأساس لبناء شخصية واثقة ومبدعة. نوفّر بيئة تعليمية مليئة بالحب والمرح، حيث يتعلّم الطفل من خلال اللعب والاكتشاف والأنشطة التي تنمّي مهاراته العقلية والاجتماعية.</p>
+        <div class="value-chips">
+          <span class="chip"><span class="badge"><svg aria-hidden="true"><use href="#icon-shield"></use></svg></span><span data-ar="بيئة آمنة ونظيفة" data-en="Safe &amp; clean spaces">بيئة آمنة ونظيفة</span></span>
+          <span class="chip"><span class="badge"><svg aria-hidden="true"><use href="#icon-people"></use></svg></span><span data-ar="معلمات مدرَّبات" data-en="Trained, caring teachers">معلمات مدرَّبات</span></span>
+          <span class="chip"><span class="badge"><svg aria-hidden="true"><use href="#icon-bulb"></use></svg></span><span data-ar="تعلّم باللعب" data-en="Play-based curriculum">تعلّم باللعب</span></span>
+        </div>
+      </div>
+      <div class="about-card reveal">
+        <div class="quote-mark">”</div>
+        <p data-ar="كل طفل يكبر بسرعته الخاصة — مهمتنا أن نمنحه الحب والمساحة ليكتشف، يخطئ، ويتعلّم بثقة." data-en="Every child grows at their own pace — our job is to give them the love and space to explore, make mistakes, and learn with confidence.">كل طفل يكبر بسرعته الخاصة — مهمتنا أن نمنحه الحب والمساحة ليكتشف، يخطئ، ويتعلّم بثقة.</p>
+        <div class="by" data-ar="فريق Kiddy Kids" data-en="The Kiddy Kids Team">فريق Kiddy Kids</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROGRAMS / JOURNEY ============ -->
+  <section id="programs" class="programs">
+    <div class="container">
+      <div class="section-head center reveal">
+        <span class="eyebrow">
+          <svg aria-hidden="true"><use href="#icon-blocks"></use></svg>
+          <span data-ar="رحلة مناسبة لكل عمر" data-en="A journey for every age">رحلة مناسبة لكل عمر</span>
+        </span>
+        <h2 data-ar="برامجنا" data-en="Our Programs">برامجنا</h2>
+        <p data-ar="مراحل متدرّجة تواكب نمو طفلك خطوة بخطوة، من الشهور الأولى حتى عتبة المدرسة." data-en="Gentle, graduated stages that grow alongside your child, from their very first months to school readiness.">مراحل متدرّجة تواكب نمو طفلك خطوة بخطوة، من الشهور الأولى حتى عتبة المدرسة.</p>
+      </div>
+
+      <div class="journey reveal">
+        <svg class="journey-wave" viewBox="0 0 300 60" preserveAspectRatio="none" aria-hidden="true">
+          <path d="M0,40 C 50,10 100,55 150,30 C 200,5 250,50 300,20" fill="none" stroke="var(--ink-soft)" stroke-width="2" stroke-dasharray="6 8"></path>
+        </svg>
+        <div class="journey-list">
+          <div class="stage">
+            <div class="stage-node"><svg aria-hidden="true"><use href="#icon-sprout"></use></svg></div>
+            <div class="stage-body">
+              <h3>Nursery <span class="age" data-ar="٤ أشهر – ٣ سنوات" data-en="4 months – 3 years">٤ أشهر – ٣ سنوات</span></h3>
+              <p data-ar="رعاية وتعليم مبكر في بيئة آمنة وهادئة تناسب خطوات الطفل الأولى." data-en="Gentle early care in a calm, safe space designed for your child's very first steps.">رعاية وتعليم مبكر في بيئة آمنة وهادئة تناسب خطوات الطفل الأولى.</p>
+              <div class="subjects">
+                <span data-ar="تعليم باللعب" data-en="Learning Through Play">تعليم باللعب</span>
+                <span data-ar="تعليم بالموسيقى" data-en="Music Learning">تعليم بالموسيقى</span>
+                <span data-ar="لغة عربية" data-en="Arabic">لغة عربية</span>
+                <span data-ar="لغة إنجليزية" data-en="English">لغة إنجليزية</span>
+                <span data-ar="فنون" data-en="Arts">فنون</span>
+                <span data-ar="منتسوري" data-en="Montessori">منتسوري</span>
+              </div>
+            </div>
+          </div>
+          <div class="stage">
+            <div class="stage-node"><svg aria-hidden="true"><use href="#icon-blocks"></use></svg></div>
+            <div class="stage-body">
+              <h3>KG1 <span class="age" data-ar="٣ – ٤ سنوات" data-en="3–4 years">٣ – ٤ سنوات</span></h3>
+              <p data-ar="تنمية المهارات الأساسية من خلال اللعب والأنشطة اليومية المنظمة." data-en="Building core skills through play and structured daily activities.">تنمية المهارات الأساسية من خلال اللعب والأنشطة اليومية المنظمة.</p>
+              <div class="subjects">
+                <span data-ar="لغة عربية" data-en="Arabic">لغة عربية</span>
+                <span data-ar="لغة إنجليزية" data-en="English">لغة إنجليزية</span>
+                <span data-ar="فنون" data-en="Arts">فنون</span>
+                <span data-ar="رياضيات" data-en="Math">رياضيات</span>
+                <span data-ar="علوم" data-en="Science">علوم</span>
+              </div>
+            </div>
+          </div>
+          <div class="stage">
+            <div class="stage-node"><svg aria-hidden="true"><use href="#icon-cap"></use></svg></div>
+            <div class="stage-body">
+              <h3>KG2 <span class="age" data-ar="٤ – ٥ سنوات" data-en="4–5 years">٤ – ٥ سنوات</span></h3>
+              <p data-ar="تحضير الطفل للمرحلة التعليمية القادمة بثقة واستقلالية أكبر." data-en="Preparing your child for the next stage with greater confidence and independence.">تحضير الطفل للمرحلة التعليمية القادمة بثقة واستقلالية أكبر.</p>
+              <div class="subjects" aria-hidden="false">
+                <span data-ar="دروس اللغة الإنجليزية" data-en="English Lessons">دروس اللغة الإنجليزية</span>
+                <span data-ar="دروس اللغة العربية" data-en="Arabic Lessons">دروس اللغة العربية</span>
+                <span data-ar="دروس العلوم" data-en="Science Lessons">دروس العلوم</span>
+                <span data-ar="دروس الرياضيات" data-en="Math Lessons">دروس الرياضيات</span>
+                <span data-ar="دراسة اجتماعية" data-en="Social Studies">دراسة اجتماعية</span>
+              </div>
+            </div>
+          </div>
+          <div class="stage">
+            <div class="stage-node"><svg aria-hidden="true"><use href="#icon-bulb"></use></svg></div>
+            <div class="stage-body">
+              <h3>KG3 <span class="age" data-ar="٥ – ٦ سنوات" data-en="5–6 years">٥ – ٦ سنوات</span></h3>
+              <p data-ar="المرحلة الأخيرة قبل المدرسة، لتعزيز الاستقلالية والاستعداد الأكاديمي الكامل." data-en="The final pre-school stage, building full independence and academic readiness.">المرحلة الأخيرة قبل المدرسة، لتعزيز الاستقلالية والاستعداد الأكاديمي الكامل.</p>
+              <div class="subjects">
+                <span data-ar="دروس اللغة الإنجليزية" data-en="English Lessons">دروس اللغة الإنجليزية</span>
+                <span data-ar="دروس اللغة العربية" data-en="Arabic Lessons">دروس اللغة العربية</span>
+                <span data-ar="دروس العلوم" data-en="Science Lessons">دروس العلوم</span>
+                <span data-ar="دروس الرياضيات" data-en="Math Lessons">دروس الرياضيات</span>
+                <span data-ar="دراسة اجتماعية" data-en="Social Studies">دراسة اجتماعية</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Summer Camp -->
+      <div class="summer-panel reveal">
+        <div class="summer-panel-inner">
+          <div class="summer-head">
+            <h3><span aria-hidden="true">☀️</span><span data-ar="مخيّم صيفي" data-en="Summer Camp">مخيّم صيفي</span></h3>
+            <span class="summer-badge">
+              <svg aria-hidden="true" style="width:16px;height:16px"><use href="#icon-calendar"></use></svg>
+              <span data-ar="من يوليو إلى أغسطس" data-en="July – August">من يوليو إلى أغسطس</span>
+            </span>
+          </div>
+          <div class="summer-grid">
+            <div class="summer-item"><span class="emoji">🎨</span><span data-ar="الرسم والفنون" data-en="Arts &amp; Drawing">الرسم والفنون</span></div>
+            <div class="summer-item"><span class="emoji">🎭</span><span data-ar="أنشطة متنوعة" data-en="Various Activities">أنشطة متنوعة</span></div>
+            <div class="summer-item"><span class="emoji">🎵</span><span data-ar="وقت الموسيقى" data-en="Music Time">وقت الموسيقى</span></div>
+            <div class="summer-item"><span class="emoji">🤸</span><span data-ar="وقت اللعب" data-en="Play Time">وقت اللعب</span></div>
+            <div class="summer-item"><span class="emoji">🍳</span><span data-ar="دروس الطهي" data-en="Cooking Lessons">دروس الطهي</span></div>
+            <div class="summer-item"><span class="emoji">🏊</span><span data-ar="أيام السباحة" data-en="Swimming Days">أيام السباحة</span></div>
+            <div class="summer-item"><span class="emoji">🏖️</span><span data-ar="اللعب بالماء والرمل" data-en="Water &amp; Sand Play">اللعب بالماء والرمل</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FACILITY ============ -->
+  <section id="facility" class="facility">
+    <div class="facility-blob"></div>
+    <div class="container" style="position:relative;z-index:1">
+      <div class="section-head center reveal">
+        <span class="eyebrow" style="background:var(--sun-light);color:#A6791A">
+          <svg aria-hidden="true"><use href="#icon-pin"></use></svg>
+          <span data-ar="جولة سريعة" data-en="A quick tour">جولة سريعة</span>
+        </span>
+        <h2 data-ar="منشأتنا" data-en="Our Facility">منشأتنا</h2>
+        <p data-ar="مساحات آمنة وملوّنة مصمَّمة خصيصًا لإسعاد أطفالنا كل يوم." data-en="Safe, colourful spaces designed every day for our children's happiness.">مساحات آمنة وملوّنة مصمَّمة خصيصًا لإسعاد أطفالنا كل يوم.</p>
+      </div>
+
+      <p class="facility-note" data-ar="صور حقيقية من منشأتنا في الحد، البحرين — اسحبوا الكرة لاستكشاف جميع الصور." data-en="Real photos from our facility in Hidd, Bahrain — drag the sphere to explore every photo.">صور حقيقية من منشأتنا في الحد، البحرين — اسحبوا الكرة لاستكشاف جميع الصور.</p>
+
+      <div class="sphere3d-wrap" id="sphere3dWrap">
+        <div class="sphere3d" id="sphere3d"></div>
+      </div>
+      <span class="sphere3d-hint">
+        <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11V7a3 3 0 0 1 6 0v4"></path><path d="M6 11h12l1 8.5a2 2 0 0 1-2 2.5H7a2 2 0 0 1-2-2.5L6 11z"></path></svg>
+        <span data-ar="اسحبوا للدوران واستكشاف كل صور منشأتنا" data-en="Drag to spin and explore every photo of our facility">اسحبوا للدوران واستكشاف كل صور منشأتنا</span>
+      </span>
+
+      <div id="fgLightbox" class="fg-lightbox" role="dialog" aria-modal="true">
+        <button type="button" class="fg-lightbox-close" aria-label="Close">&times;</button>
+        <img id="fgLightboxImg" src="" alt="">
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ACTIVITIES TEASER (below Our Facility) ============ -->
+  <section id="activities-teaser" class="activities-teaser">
+    <div class="container">
+      <div class="section-head center reveal">
+        <span class="eyebrow" style="background:var(--sage-light);color:#3d6650">
+          <svg aria-hidden="true"><use href="#icon-bulb"></use></svg>
+          <span data-ar="لحظات من يومنا" data-en="Moments from our day">لحظات من يومنا</span>
+        </span>
+        <h2 data-ar="أنشطتنا" data-en="Our Activities">أنشطتنا</h2>
+        <p data-ar="أنشطة ممتعة تنمّي الإبداع والتفكير والفضول الطبيعي لدى أطفالنا كل يوم." data-en="Fun activities that nurture creativity, thinking, and natural curiosity every day.">أنشطة ممتعة تنمّي الإبداع والتفكير والفضول الطبيعي لدى أطفالنا كل يوم.</p>
+      </div>
+      <div class="at-grid reveal">
+        <div class="at-item"><img src="images/activities/activity1.jpg" loading="lazy" alt="Kiddy Kids activity"></div>
+        <div class="at-item"><img src="images/activities/activity4.jpg" loading="lazy" alt="Kiddy Kids activity"></div>
+        <div class="at-item"><img src="images/activities/activity8.jpg" loading="lazy" alt="Kiddy Kids activity"></div>
+        <div class="at-item"><img src="images/activities/activity12.jpg" loading="lazy" alt="Kiddy Kids activity"></div>
+        <div class="at-item"><img src="images/activities/activity16.jpg" loading="lazy" alt="Kiddy Kids activity"></div>
+        <div class="at-item"><img src="images/activities/activity22.jpg" loading="lazy" alt="Kiddy Kids activity"></div>
+      </div>
+      <div class="at-cta reveal">
+        <a href="activities.html" class="btn btn-primary" data-ar="شاهدوا جميع الأنشطة" data-en="See All Activities">شاهدوا جميع الأنشطة</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ WHY US ============ -->
+  <section id="why" class="why">
+    <div class="container">
+      <div class="section-head center reveal">
+        <span class="eyebrow">
+          <svg aria-hidden="true"><use href="#icon-check"></use></svg>
+          <span data-ar="ما يميّزنا" data-en="What sets us apart">ما يميّزنا</span>
+        </span>
+        <h2 data-ar="لماذا Kiddy Kids؟" data-en="Why Kiddy Kids?">لماذا Kiddy Kids؟</h2>
+      </div>
+      <div class="why-grid">
+        <div class="feature reveal">
+          <div class="badge"><svg aria-hidden="true"><use href="#icon-shield"></use></svg></div>
+          <h3 data-ar="بيئة آمنة" data-en="Safe Environment">بيئة آمنة</h3>
+          <p data-ar="مكان مريح يشعر الطفل فيه بالثقة والسعادة طوال اليوم." data-en="A comfortable place where your child feels happy and secure all day.">مكان مريح يشعر الطفل فيه بالثقة والسعادة طوال اليوم.</p>
+        </div>
+        <div class="feature reveal">
+          <div class="badge"><svg aria-hidden="true"><use href="#icon-bulb"></use></svg></div>
+          <h3 data-ar="التعلّم باللعب" data-en="Learning Through Play">التعلّم باللعب</h3>
+          <p data-ar="أنشطة ممتعة تنمّي الإبداع والتفكير والفضول الطبيعي." data-en="Fun activities that nurture creativity, thinking, and natural curiosity.">أنشطة ممتعة تنمّي الإبداع والتفكير والفضول الطبيعي.</p>
+        </div>
+        <div class="feature reveal">
+          <div class="badge"><svg aria-hidden="true"><use href="#icon-people"></use></svg></div>
+          <h3 data-ar="فريق متخصص" data-en="Dedicated Team">فريق متخصص</h3>
+          <p data-ar="متابعة قريبة لكل طفل مع اهتمام بالتطور الاجتماعي والتعليمي." data-en="Close attention to every child's social and educational growth.">متابعة قريبة لكل طفل مع اهتمام بالتطور الاجتماعي والتعليمي.</p>
+        </div>
+        <div class="feature reveal">
+          <div class="badge"><svg aria-hidden="true"><use href="#icon-bubble"></use></svg></div>
+          <h3 data-ar="تعلّم ثنائي اللغة" data-en="Bilingual Learning">تعلّم ثنائي اللغة</h3>
+          <p data-ar="تعرّض يومي للعربية والإنجليزية عبر الأغاني والقصص واللعب." data-en="Daily exposure to Arabic and English through songs, stories, and play.">تعرّض يومي للعربية والإنجليزية عبر الأغاني والقصص واللعب.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <div class="section-head center reveal">
+        <span class="eyebrow" style="background:rgba(255,255,255,.12);color:var(--sun)">
+          <svg aria-hidden="true"><use href="#icon-pin"></use></svg>
+          <span data-ar="تسجيل وحجز زيارة" data-en="Enrollment &amp; visits">تسجيل وحجز زيارة</span>
+        </span>
+        <h2 data-ar="ابدأوا الرحلة معنا" data-en="Start the Journey With Us">ابدأوا الرحلة معنا</h2>
+        <p data-ar="اتركوا بياناتكم وسيتواصل فريق الحضانة لتحديد موعد الزيارة ومشاركة تفاصيل البرنامج المناسب." data-en="Leave your details and our team will reach out to schedule a visit and share the right program for your child.">اتركوا بياناتكم وسيتواصل فريق الحضانة لتحديد موعد الزيارة ومشاركة تفاصيل البرنامج المناسب.</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="info-card reveal">
+          <div class="info-row">
+            <span class="badge"><svg aria-hidden="true"><use href="#icon-pin"></use></svg></span>
+            <div><strong data-ar="الموقع" data-en="Location">الموقع</strong><a class="val" href="https://share.google/D7JrBN8p3W97x8ab2" target="_blank" rel="noopener" style="text-decoration:underline" data-ar="الحد، البحرين — عرض على خرائط جوجل" data-en="Hidd, Bahrain — View on Google Maps">الحد، البحرين — عرض على خرائط جوجل</a></div>
+          </div>
+          <div class="info-row">
+            <span class="badge"><svg aria-hidden="true"><use href="#icon-clock"></use></svg></span>
+            <div><strong data-ar="ساعات العمل" data-en="Hours">ساعات العمل</strong><span class="val" data-ar="الأحد – الخميس، ٧:٠٠ ص – ١:٠٠ م (تتوفر ساعات رعاية إضافية قبل وبعد أوقات العمل)" data-en="Sun–Thu, 7:00 AM – 1:00 PM (Extra care hours available before &amp; after working hours)">الأحد – الخميس، ٧:٠٠ ص – ١:٠٠ م (تتوفر ساعات رعاية إضافية قبل وبعد أوقات العمل)</span></div>
+          </div>
+          <div class="info-row">
+            <span class="badge"><svg aria-hidden="true"><use href="#icon-phone"></use></svg></span>
+            <div><strong data-ar="الهاتف" data-en="Phone">الهاتف</strong><span class="val" data-ar="+973 3231 4680" data-en="+973 3231 4680">+973 3231 4680</span></div>
+          </div>
+          <div class="info-row">
+            <span class="badge"><svg aria-hidden="true"><use href="#icon-mail"></use></svg></span>
+            <div><strong data-ar="البريد الإلكتروني" data-en="Email">البريد الإلكتروني</strong><span class="val" data-ar="Kiddykids824@gmail.com" data-en="Kiddykids824@gmail.com">Kiddykids824@gmail.com</span></div>
+          </div>
+          <a href="https://wa.me/97332314680" target="_blank" rel="noopener" class="btn wa-btn">
+            <svg aria-hidden="true"><use href="#icon-whatsapp"></use></svg>
+            <span data-ar="راسلونا على واتساب" data-en="Message us on WhatsApp">راسلونا على واتساب</span>
+          </a>
+          <a href="https://instagram.com/kiddykids.hidd" target="_blank" rel="noopener" class="btn btn-light" style="margin-top:10px;width:100%;background:transparent;color:#fff;border-color:rgba(255,255,255,.3)">
+            <svg aria-hidden="true"><use href="#icon-camera"></use></svg>
+            <span data-ar="تابعونا @kiddykids.hidd" data-en="Follow @kiddykids.hidd">تابعونا @kiddykids.hidd</span>
+          </a>
+          <a href="https://www.facebook.com/share/14eBBFdQ3hk/" target="_blank" rel="noopener" class="btn btn-light" style="margin-top:10px;width:100%;background:transparent;color:#fff;border-color:rgba(255,255,255,.3)">
+            <svg aria-hidden="true"><use href="#icon-facebook"></use></svg>
+            <span data-ar="تابعونا على فيسبوك" data-en="Follow us on Facebook">تابعونا على فيسبوك</span>
+          </a>
+          <a href="https://www.tiktok.com/@kiddykidshidd?_r=1&amp;_t=ZS-97gi1iemHjN" target="_blank" rel="noopener" class="btn btn-light" style="margin-top:10px;width:100%;background:transparent;color:#fff;border-color:rgba(255,255,255,.3)">
+            <svg aria-hidden="true"><use href="#icon-tiktok"></use></svg>
+            <span data-ar="تابعونا على تيك توك" data-en="Follow us on TikTok">تابعونا على تيك توك</span>
+          </a>
+        </div>
+
+        <div class="form-card reveal">
+          <h3 data-ar="سجّلوا واحجزوا زيارة الآن" data-en="Register &amp; Book a Visit">سجّلوا واحجزوا زيارة الآن</h3>
+          <p class="sub" data-ar="اختاروا اليوم والوقت المناسب (من ٧ صباحًا حتى ١ ظهرًا، كل موعد ١٥ دقيقة)، وستصلكم رسالة تأكيد فورية بالبريد الإلكتروني، وسيُفتح واتساب لإرسال طلبكم للحضانة مباشرة." data-en="Pick a day and time (7:00 AM–1:00 PM, 15-minute slots) and you'll get an instant email confirmation, plus WhatsApp will open to send your request straight to the nursery.">اختاروا اليوم والوقت المناسب (من ٧ صباحًا حتى ١ ظهرًا، كل موعد ١٥ دقيقة)، وستصلكم رسالة تأكيد فورية بالبريد الإلكتروني، وسيُفتح واتساب لإرسال طلبكم للحضانة مباشرة.</p>
+
+          <form id="quickRegForm">
+            <div class="field">
+              <label for="qrDate" data-ar="تاريخ الزيارة" data-en="Visit Date">تاريخ الزيارة</label>
+              <input type="date" id="qrDate" name="date" class="booking-date" required>
+            </div>
+
+            <div class="slots-label">
+              <svg aria-hidden="true" style="width:16px;height:16px"><use href="#icon-clock"></use></svg>
+              <span data-ar="اختاروا الوقت المناسب" data-en="Choose an available time">اختاروا الوقت المناسب</span>
+            </div>
+            <div class="slots-grid" id="qrSlotsGrid">
+              <div class="slots-empty" data-ar="اختاروا تاريخًا أولًا لعرض الأوقات المتاحة" data-en="Pick a date first to see available times">اختاروا تاريخًا أولًا لعرض الأوقات المتاحة</div>
+            </div>
+            <p class="slots-hint" data-ar="ساعات العمل: الأحد–الخميس، ٧:٠٠ص–١:٠٠م. كل موعد مقابلة ١٥ دقيقة." data-en="Working hours: Sun–Thu, 7:00 AM–1:00 PM. Each visit slot is 15 minutes.">ساعات العمل: الأحد–الخميس، ٧:٠٠ص–١:٠٠م. كل موعد مقابلة ١٥ دقيقة.</p>
+            <input type="hidden" id="qrTime" name="time" required>
+
+            <div class="field">
+              <label for="qrChildName" data-ar="اسم الطفل" data-en="Child's Name">اسم الطفل</label>
+              <input type="text" id="qrChildName" name="childName" required>
+            </div>
+            <div class="field">
+              <label for="qrParentName" data-ar="اسم ولي الأمر" data-en="Parent's Name">اسم ولي الأمر</label>
+              <input type="text" id="qrParentName" name="parentName" required>
+            </div>
+            <div class="field">
+              <label for="qrPhone" data-ar="رقم الواتساب" data-en="WhatsApp Number">رقم الواتساب</label>
+              <input type="tel" id="qrPhone" name="phone" placeholder="+973 XXXX XXXX" required>
+            </div>
+            <div class="field">
+              <label for="qrEmail" data-ar="البريد الإلكتروني" data-en="Email">البريد الإلكتروني</label>
+              <input type="email" id="qrEmail" name="email" required>
+            </div>
+            <div class="field">
+              <label for="qrProgram" data-ar="البرنامج" data-en="Program">البرنامج</label>
+              <select id="qrProgram" name="program" required>
+                <option value="" data-ar="اختر البرنامج" data-en="Choose a program">اختر البرنامج</option>
+                <option value="Nursery" data-ar="Nursery" data-en="Nursery">Nursery</option>
+                <option value="KG1" data-ar="KG1" data-en="KG1">KG1</option>
+                <option value="KG2" data-ar="KG2" data-en="KG2">KG2</option>
+                <option value="KG3" data-ar="KG3" data-en="KG3">KG3</option>
+                <option value="Summer Camp" data-ar="مخيّم صيفي" data-en="Summer Camp">مخيّم صيفي</option>
+              </select>
+            </div>
+            <button type="submit" class="btn btn-primary" style="width:100%" id="qrSubmitBtn" data-ar="تأكيد الحجز" data-en="Confirm Booking">تأكيد الحجز</button>
+            <div class="form-note" id="qrNote" data-ar="✅ تم تأكيد حجزكم بنجاح! سيصلكم تأكيد بالبريد الإلكتروني، وسيُفتح واتساب الآن — يُرجى الضغط على إرسال لإتمام التواصل معنا فورًا." data-en="✅ Your booking is confirmed! You'll get an email confirmation, and WhatsApp will open now — please tap send to reach us instantly.">✅ تم تأكيد حجزكم بنجاح! سيصلكم تأكيد بالبريد الإلكتروني، وسيُفتح واتساب الآن — يُرجى الضغط على إرسال لإتمام التواصل معنا فورًا.</div>
+            <div class="form-note form-note-error" id="qrError" data-ar="⚠️ تعذّر إرسال البريد الإلكتروني، لكن سيُفتح واتساب الآن لإتمام حجزكم." data-en="⚠️ The email couldn't be sent, but WhatsApp will open now so you can complete your booking.">⚠️ تعذّر إرسال البريد الإلكتروني، لكن سيُفتح واتساب الآن لإتمام حجزكم.</div>
+            <div class="form-note form-note-error" id="qrTaken" data-ar="⚠️ للأسف هذا الموعد حُجز للتو من شخص آخر. يُرجى اختيار وقت آخر." data-en="⚠️ Sorry, this time slot was just booked by someone else. Please choose another time.">⚠️ للأسف هذا الموعد حُجز للتو من شخص آخر. يُرجى اختيار وقت آخر.</div>
+          </form>
+
+          <a href="https://wa.me/97332314680" target="_blank" rel="noopener" class="btn btn-light" style="margin-top:14px;width:100%">
+            <svg aria-hidden="true"><use href="#icon-whatsapp"></use></svg>
+            <span data-ar="أو تواصلوا معنا مباشرة على واتساب" data-en="Or contact us directly on WhatsApp">أو تواصلوا معنا مباشرة على واتساب</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-col">
+      <div class="footer-brand">
+        <img src="logo.jpg" alt="Kiddy Kids Nursery &amp; Pre-School logo">
+        <span>Kiddy Kids Nursery Pre-School</span>
+      </div>
+      <p data-ar="حضانة وروضة تقدّم بيئة تعليمية آمنة وممتعة ثنائية اللغة من عمر 4 أشهر حتى 6 سنوات، لمراحل Nursery وKG1 وKG2 وKG3، مع مخيّم صيفي." data-en="A nursery &amp; pre-school offering a safe, joyful bilingual learning home from 4 months to 6 years — Nursery, KG1, KG2, KG3 and a Summer Camp.">حضانة وروضة تقدّم بيئة تعليمية آمنة وممتعة ثنائية اللغة من عمر 4 أشهر حتى 6 سنوات، لمراحل Nursery وKG1 وKG2 وKG3، مع مخيّم صيفي.</p>
+      <div class="social-row">
+        <a href="https://wa.me/97332314680" target="_blank" rel="noopener" aria-label="WhatsApp"><svg aria-hidden="true"><use href="#icon-whatsapp"></use></svg></a>
+        <a href="https://instagram.com/kiddykids.hidd" target="_blank" rel="noopener" aria-label="Instagram"><svg aria-hidden="true"><use href="#icon-camera"></use></svg></a>
+        <a href="https://www.facebook.com/share/14eBBFdQ3hk/" target="_blank" rel="noopener" aria-label="Facebook"><svg aria-hidden="true"><use href="#icon-facebook"></use></svg></a>
+        <a href="https://www.tiktok.com/@kiddykidshidd?_r=1&amp;_t=ZS-97gi1iemHjN" target="_blank" rel="noopener" aria-label="TikTok"><svg aria-hidden="true"><use href="#icon-tiktok"></use></svg></a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4 data-ar="روابط سريعة" data-en="Quick Links">روابط سريعة</h4>
+      <ul>
+        <li><a href="#home" data-ar="الرئيسية" data-en="Home">الرئيسية</a></li>
+        <li><a href="#about" data-ar="من نحن" data-en="About">من نحن</a></li>
+        <li><a href="#programs" data-ar="برامجنا" data-en="Programs">برامجنا</a></li>
+        <li><a href="#facility" data-ar="منشأتنا" data-en="Our Facility">منشأتنا</a></li>
+        <li><a href="activities.html" data-ar="الأنشطة" data-en="Activities">الأنشطة</a></li>
+        <li><a href="#why" data-ar="لماذا نحن" data-en="Why Us">لماذا نحن</a></li>
+        <li><a href="#contact" data-ar="تواصل معنا" data-en="Contact">تواصل معنا</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4 data-ar="تواصل معنا" data-en="Contact">تواصل معنا</h4>
+      <div class="info-row">
+        <span class="badge"><svg aria-hidden="true"><use href="#icon-pin"></use></svg></span>
+        <a class="val" href="https://share.google/D7JrBN8p3W97x8ab2" target="_blank" rel="noopener" data-ar="الحد، البحرين" data-en="Hidd, Bahrain">الحد، البحرين</a>
+      </div>
+      <div class="info-row">
+        <span class="badge"><svg aria-hidden="true"><use href="#icon-phone"></use></svg></span>
+        <span class="val" data-ar="+973 3231 4680" data-en="+973 3231 4680">+973 3231 4680</span>
+      </div>
+      <div class="info-row">
+        <span class="badge"><svg aria-hidden="true"><use href="#icon-mail"></use></svg></span>
+        <span class="val" data-ar="Kiddykids824@gmail.com" data-en="Kiddykids824@gmail.com">Kiddykids824@gmail.com</span>
+      </div>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <span><span data-ar="© " data-en="© ">© </span><span id="yearNow">2026</span><span data-ar=" Kiddy Kids Nursery &amp; Pre-School — جميع الحقوق محفوظة" data-en=" Kiddy Kids Nursery &amp; Pre-School — All rights reserved"> Kiddy Kids Nursery &amp; Pre-School — جميع الحقوق محفوظة</span></span>
+    <div class="lang-toggle" role="group" aria-label="Language / اللغة">
+      <button type="button" class="lang-btn-footer active" data-lang="ar">AR</button>
+      <button type="button" class="lang-btn-footer" data-lang="en">EN</button>
+    </div>
+  </div>
+</footer>
+
+<a href="https://wa.me/97332314680" target="_blank" rel="noopener" class="wa-fab" aria-label="WhatsApp">
+  <svg aria-hidden="true"><use href="#icon-whatsapp"></use></svg>
+</a>
+
+<script>
+(function(){
+  "use strict";
+
+  /* ---------- Language switching ---------- */
+  function setLanguage(lang){
+    var isAr = lang === 'ar';
+    document.documentElement.lang = isAr ? 'ar' : 'en';
+    document.documentElement.dir = isAr ? 'rtl' : 'ltr';
+    try { localStorage.setItem('kk_lang', isAr ? 'ar' : 'en'); } catch(e){}
+
+    document.querySelectorAll('[data-ar-html]').forEach(function(el){
+      el.innerHTML = isAr ? el.getAttribute('data-ar-html') : el.getAttribute('data-en-html');
+    });
+    document.querySelectorAll('[data-ar]:not([data-ar-html])').forEach(function(el){
+      var text = isAr ? el.getAttribute('data-ar') : el.getAttribute('data-en');
+      if (text !== null) el.textContent = text;
+    });
+
+    document.querySelectorAll('#langArBtn, .lang-btn-footer[data-lang="ar"]').forEach(function(b){ b.classList.toggle('active', isAr); });
+    document.querySelectorAll('#langEnBtn, .lang-btn-footer[data-lang="en"]').forEach(function(b){ b.classList.toggle('active', !isAr); });
+
+    if (typeof updateWhatsAppLinks === 'function') updateWhatsAppLinks();
+    if (typeof window.updateGcalButtonLanguage === 'function') window.updateGcalButtonLanguage();
+  }
+
+  document.querySelectorAll('[data-lang]').forEach(function(btn){
+    btn.addEventListener('click', function(){ setLanguage(btn.getAttribute('data-lang')); });
+  });
+
+  try {
+    var savedLang = localStorage.getItem('kk_lang');
+    if (savedLang === 'en') setLanguage('en');
+  } catch(e){}
+
+  /* ---------- Mobile menu ---------- */
+  var menuBtn = document.getElementById('menuBtn');
+  var mobileMenu = document.getElementById('mobileMenu');
+  menuBtn.addEventListener('click', function(){
+    var open = mobileMenu.classList.toggle('open');
+    menuBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+  mobileMenu.querySelectorAll('a').forEach(function(a){
+    a.addEventListener('click', function(){
+      mobileMenu.classList.remove('open');
+      menuBtn.setAttribute('aria-expanded', 'false');
+    });
+  });
+  document.addEventListener('keydown', function(e){
+    if (e.key === 'Escape' && mobileMenu.classList.contains('open')){
+      mobileMenu.classList.remove('open');
+      menuBtn.setAttribute('aria-expanded', 'false');
+    }
+  });
+
+  /* ---------- Scroll reveal ---------- */
+  var prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if ('IntersectionObserver' in window && !prefersReduced){
+    var obs = new IntersectionObserver(function(entries){
+      entries.forEach(function(entry){
+        if (entry.isIntersecting){
+          entry.target.classList.add('is-visible');
+          obs.unobserve(entry.target);
+        }
+      });
+    }, {threshold:0.15});
+    document.querySelectorAll('.reveal').forEach(function(el){ obs.observe(el); });
+  } else {
+    document.querySelectorAll('.reveal').forEach(function(el){ el.classList.add('is-visible'); });
+  }
+
+  /* ---------- Footer year ---------- */
+  var y = document.getElementById('yearNow');
+  if (y) y.textContent = new Date().getFullYear();
+
+  /* ---------- WhatsApp pre-filled message (by site language) ---------- */
+  var WA_NUMBER = '97332314680';
+  var WA_MESSAGES = {
+    ar: "السلام عليكم 🌸\nأرغب في الاستفسار عن التسجيل في Kiddy Kids Nursery & Pre-School والبرامج المتاحة لطفلي. 😊",
+    en: "Hello 🌸\nI would like to inquire about registration at Kiddy Kids Nursery & Pre-School and the available programs for my child. 😊"
+  };
+  function updateWhatsAppLinks(){
+    var isAr = document.documentElement.lang === 'ar';
+    var text = encodeURIComponent(isAr ? WA_MESSAGES.ar : WA_MESSAGES.en);
+    document.querySelectorAll('a[href^="https://wa.me/' + WA_NUMBER + '"]').forEach(function(a){
+      a.setAttribute('href', 'https://wa.me/' + WA_NUMBER + '?text=' + text);
+    });
+  }
+  updateWhatsAppLinks();
+
+  /* ---------- Facility 3D photo sphere (all photos, drag to rotate, click to zoom) ---------- */
+  var fgLightbox = document.getElementById('fgLightbox');
+  var fgLightboxImg = document.getElementById('fgLightboxImg');
+  var sphereWrap = document.getElementById('sphere3dWrap');
+  var sphereEl = document.getElementById('sphere3d');
+
+  function openLightbox(src){
+    if (!fgLightbox || !fgLightboxImg || !src) return;
+    fgLightboxImg.src = src;
+    fgLightbox.classList.add('show');
+  }
+
+  if (sphereWrap && sphereEl){
+    var facilityCount = 24;
+    var facilityImgs = [];
+    for (var fi = 1; fi <= facilityCount; fi++){ facilityImgs.push('images/facility/facility' + fi + '.jpg'); }
+
+    var R = window.innerWidth >= 700 ? 210 : 165;
+    var N = facilityImgs.length;
+    var points = facilityImgs.map(function(src, i){
+      var y = N > 1 ? 1 - (i / (N - 1)) * 2 : 0;
+      var radiusAtY = Math.sqrt(Math.max(0, 1 - y * y));
+      var goldenAngle = Math.PI * (3 - Math.sqrt(5));
+      var theta = goldenAngle * i;
+      return {
+        src: src,
+        x: Math.cos(theta) * radiusAtY * R,
+        y: y * R,
+        z: Math.sin(theta) * radiusAtY * R
+      };
+    });
+
+    var tiles = points.map(function(p){
+      var tile = document.createElement('div');
+      tile.className = 'sphere3d-item';
+      var img = document.createElement('img');
+      img.src = p.src;
+      img.loading = 'lazy';
+      img.alt = 'Kiddy Kids facility';
+      tile.appendChild(img);
+      tile.addEventListener('click', function(){ openLightbox(p.src); });
+      sphereEl.appendChild(tile);
+      return tile;
+    });
+
+    var rotY = 0.4, rotX = -0.25;
+    var autoSpin = true;
+    var dragging = false, lastX = 0, lastY = 0;
+
+    function render(){
+      var cosY = Math.cos(rotY), sinY = Math.sin(rotY);
+      var cosX = Math.cos(rotX), sinX = Math.sin(rotX);
+      for (var i = 0; i < points.length; i++){
+        var p = points[i];
+        var x1 = p.x * cosY + p.z * sinY;
+        var z1 = -p.x * sinY + p.z * cosY;
+        var y1 = p.y;
+        var y2 = y1 * cosX - z1 * sinX;
+        var z2 = y1 * sinX + z1 * cosX;
+        var scale = 0.62 + (z2 + R) / (2 * R) * 0.66;
+        var opacity = 0.4 + (z2 + R) / (2 * R) * 0.6;
+        tiles[i].style.transform = 'translate3d(' + x1.toFixed(1) + 'px,' + y2.toFixed(1) + 'px,0) scale(' + scale.toFixed(3) + ')';
+        tiles[i].style.opacity = opacity.toFixed(2);
+        tiles[i].style.zIndex = Math.round(z2 + R);
+      }
+    }
+
+    function tick(){
+      if (autoSpin && !dragging){ rotY += 0.0028; }
+      render();
+      requestAnimationFrame(tick);
+    }
+
+    function pointerDown(e){
+      dragging = true;
+      autoSpin = false;
+      var pt = e.touches ? e.touches[0] : e;
+      lastX = pt.clientX; lastY = pt.clientY;
+    }
+    function pointerMove(e){
+      if (!dragging) return;
+      var pt = e.touches ? e.touches[0] : e;
+      var dx = pt.clientX - lastX, dy = pt.clientY - lastY;
+      lastX = pt.clientX; lastY = pt.clientY;
+      rotY += dx * 0.008;
+      rotX -= dy * 0.008;
+      rotX = Math.max(-1.1, Math.min(1.1, rotX));
+      if (e.cancelable) e.preventDefault();
+    }
+    function pointerUp(){
+      dragging = false;
+      setTimeout(function(){ autoSpin = true; }, 1800);
+    }
+
+    sphereWrap.addEventListener('mousedown', pointerDown);
+    window.addEventListener('mousemove', pointerMove);
+    window.addEventListener('mouseup', pointerUp);
+    sphereWrap.addEventListener('touchstart', pointerDown, {passive:true});
+    window.addEventListener('touchmove', pointerMove, {passive:false});
+    window.addEventListener('touchend', pointerUp);
+
+    var reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (reduceMotion) autoSpin = false;
+    render();
+    requestAnimationFrame(tick);
+  }
+
+  if (fgLightbox && fgLightboxImg){
+    fgLightbox.addEventListener('click', function(e){
+      if (e.target === fgLightbox || e.target.classList.contains('fg-lightbox-close')){
+        fgLightbox.classList.remove('show');
+        fgLightboxImg.src = '';
+      }
+    });
+    document.addEventListener('keydown', function(e){
+      if (e.key === 'Escape') { fgLightbox.classList.remove('show'); fgLightboxImg.src=''; }
+    });
+  }
+
+})();
+</script>
+
+<script>
+(function(){
+  "use strict";
+  /* =========================================================================
+     CUSTOM BOOKING SYSTEM — time slots (7:00 AM–1:00 PM, 15-minute intervals)
+     Backend: a free Google Apps Script Web App (NOT Google Calendar / the
+     appointment-scheduling widget) acting as a tiny database + mailer.
+     See BOOKING-SETUP-GUIDE.md for full setup steps (5–10 minutes, free).
+
+     IMPORTANT: replace GAS_ENDPOINT below with your deployed Apps Script
+     Web App URL (looks like: https://script.google.com/macros/s/XXXX/exec)
+     ========================================================================= */
+  var GAS_ENDPOINT = 'PASTE_YOUR_APPS_SCRIPT_WEB_APP_URL_HERE';
+
+  var START_HOUR = 7;      // 7:00 AM
+  var END_HOUR   = 13;     // 1:00 PM (last slot starts at 12:45)
+  var SLOT_MIN   = 15;     // minutes per slot
+
+  function buildAllSlots(){
+    var slots = [];
+    var totalMinutes = (END_HOUR - START_HOUR) * 60;
+    for (var m = 0; m < totalMinutes; m += SLOT_MIN){
+      var h = START_HOUR + Math.floor(m / 60);
+      var mm = m % 60;
+      slots.push((h < 10 ? '0' + h : h) + ':' + (mm < 10 ? '0' + mm : mm));
+    }
+    return slots;
+  }
+  var ALL_SLOTS = buildAllSlots();
+
+  function fmtSlot12(t){
+    var parts = t.split(':'); var h = parseInt(parts[0],10); var m = parts[1];
+    var suffix = h >= 12 ? 'PM' : 'AM';
+    var h12 = h % 12; if (h12 === 0) h12 = 12;
+    return h12 + ':' + m + ' ' + suffix;
+  }
+
+  var qrForm = document.getElementById('quickRegForm');
+  var qrDate = document.getElementById('qrDate');
+  var qrSlotsGrid = document.getElementById('qrSlotsGrid');
+  var qrTimeInput = document.getElementById('qrTime');
+  var qrNote = document.getElementById('qrNote');
+  var qrError = document.getElementById('qrError');
+  var qrTaken = document.getElementById('qrTaken');
+  var qrBtn = document.getElementById('qrSubmitBtn');
+  if (!qrForm) return;
+
+  // Restrict date picker to today .. +60 days
+  (function(){
+    var today = new Date();
+    var max = new Date(); max.setDate(max.getDate() + 60);
+    function iso(d){ return d.toISOString().slice(0,10); }
+    qrDate.min = iso(today);
+    qrDate.max = iso(max);
+  })();
+
+  function isAr(){ return document.documentElement.lang === 'ar'; }
+
+  function renderSlots(takenList){
+    qrSlotsGrid.innerHTML = '';
+    qrTimeInput.value = '';
+    var taken = takenList || [];
+    ALL_SLOTS.forEach(function(t){
+      var btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'slot-btn';
+      btn.textContent = fmtSlot12(t);
+      if (taken.indexOf(t) !== -1){
+        btn.classList.add('taken');
+        btn.disabled = true;
+      } else {
+        btn.addEventListener('click', function(){
+          qrSlotsGrid.querySelectorAll('.slot-btn.selected').forEach(function(b){ b.classList.remove('selected'); });
+          btn.classList.add('selected');
+          qrTimeInput.value = t;
+        });
+      }
+      qrSlotsGrid.appendChild(btn);
+    });
+  }
+
+  function loadSlotsForDate(dateVal){
+    if (!dateVal) return;
+    var d = new Date(dateVal + 'T00:00:00');
+    var day = d.getDay(); // 0 = Sunday ... 5 = Friday, 6 = Saturday
+    if (day === 5 || day === 6){
+      qrSlotsGrid.innerHTML = '<div class="slots-empty" data-ar="الحضانة مغلقة يومي الجمعة والسبت — يُرجى اختيار يوم من الأحد للخميس." data-en="The nursery is closed on Fridays & Saturdays — please choose a day between Sunday and Thursday.">' +
+        (isAr() ? 'الحضانة مغلقة يومي الجمعة والسبت — يُرجى اختيار يوم من الأحد للخميس.' : 'The nursery is closed on Fridays & Saturdays — please choose a day between Sunday and Thursday.') + '</div>';
+      qrTimeInput.value = '';
+      return;
+    }
+    qrSlotsGrid.innerHTML = '<div class="slots-empty">' + (isAr() ? 'جاري تحميل الأوقات المتاحة…' : 'Loading available times…') + '</div>';
+
+    if (!GAS_ENDPOINT || GAS_ENDPOINT.indexOf('PASTE_YOUR') !== -1){
+      // Backend not configured yet: show all slots as open (no real double-booking protection).
+      renderSlots([]);
+      return;
+    }
+    fetch(GAS_ENDPOINT + '?action=slots&date=' + encodeURIComponent(dateVal))
+      .then(function(res){ return res.json(); })
+      .then(function(data){ renderSlots(data && data.taken ? data.taken : []); })
+      .catch(function(){ renderSlots([]); });
+  }
+
+  qrDate.addEventListener('change', function(){ loadSlotsForDate(qrDate.value); });
+
+  qrForm.addEventListener('submit', function(e){
+    e.preventDefault();
+    if (!qrForm.checkValidity()){ qrForm.reportValidity(); return; }
+    if (!qrTimeInput.value){
+      alert(isAr() ? 'يُرجى اختيار وقت الزيارة أولًا' : 'Please choose a visit time first');
+      return;
+    }
+
+    var childName = qrForm.childName.value.trim();
+    var parentName = qrForm.parentName.value.trim();
+    var phone = qrForm.phone.value.trim();
+    var email = qrForm.email.value.trim();
+    var programLabel = qrForm.program.options[qrForm.program.selectedIndex].textContent;
+    var dateVal = qrDate.value;
+    var timeVal = qrTimeInput.value;
+
+    qrNote.classList.remove('show');
+    qrError.classList.remove('show');
+    qrTaken.classList.remove('show');
+    qrBtn.disabled = true;
+
+    var waMsg = isAr()
+      ? "مرحبًا، أرغب في حجز زيارة/تسجيل طفلي في Kiddy Kids Nursery & Pre-School.\nالتاريخ: " + dateVal + "\nالوقت: " + fmtSlot12(timeVal) + "\nاسم الطفل: " + childName + "\nاسم ولي الأمر: " + parentName + "\nرقم التواصل: " + phone + "\nالبريد الإلكتروني: " + email + "\nالبرنامج: " + programLabel
+      : "Hello, I'd like to book a visit / register my child at Kiddy Kids Nursery & Pre-School.\nDate: " + dateVal + "\nTime: " + fmtSlot12(timeVal) + "\nChild's Name: " + childName + "\nParent's Name: " + parentName + "\nPhone: " + phone + "\nEmail: " + email + "\nProgram: " + programLabel;
+
+    function openWhatsApp(){
+      window.open('https://wa.me/97332314680?text=' + encodeURIComponent(waMsg), '_blank');
+    }
+    function finish(){
+      qrForm.reset();
+      renderSlots([]);
+      qrSlotsGrid.innerHTML = '<div class="slots-empty" data-ar="اختاروا تاريخًا أولًا لعرض الأوقات المتاحة" data-en="Pick a date first to see available times">' + (isAr() ? 'اختاروا تاريخًا أولًا لعرض الأوقات المتاحة' : 'Pick a date first to see available times') + '</div>';
+      qrBtn.disabled = false;
+    }
+
+    if (!GAS_ENDPOINT || GAS_ENDPOINT.indexOf('PASTE_YOUR') !== -1){
+      // Backend not configured yet: skip the save/email step, still open WhatsApp.
+      qrError.classList.add('show');
+      openWhatsApp();
+      finish();
+      return;
+    }
+
+    fetch(GAS_ENDPOINT, {
+      method: 'POST',
+      body: JSON.stringify({
+        date: dateVal, time: timeVal, childName: childName, parentName: parentName,
+        phone: phone, email: email, program: programLabel, lang: isAr() ? 'ar' : 'en'
+      })
+    }).then(function(res){ return res.json(); })
+      .then(function(data){
+        if (data && data.success){
+          qrNote.classList.add('show');
+          openWhatsApp();
+        } else if (data && data.reason === 'taken'){
+          qrTaken.classList.add('show');
+          loadSlotsForDate(dateVal); // refresh to show the now-taken slot
+          qrBtn.disabled = false;
+          return; // don't reset the form — let them pick another time
+        } else {
+          qrError.classList.add('show');
+          openWhatsApp();
+        }
+        finish();
+      })
+      .catch(function(){
+        qrError.classList.add('show');
+        openWhatsApp();
+        finish();
+      });
+  });
+})();
+</script>
+
+</body>
+</html>
