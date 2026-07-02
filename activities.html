@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>الأنشطة | Activities — Kiddy Kids Nursery &amp; Pre-School</title>
+<meta name="description" content="Explore daily activities, learning moments and fun at Kiddy Kids Nursery &amp; Pre-School — Hidd, Bahrain. لمحة عن أنشطة أطفالنا اليومية في حضانة وروضة كيدي كيدز — الحد، البحرين.">
+<link rel="icon" type="image/jpeg" href="logo.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&amp;family=Baloo+Bhaijaan+2:wght@500;600;700;800&amp;family=Inter:wght@400;500;600;700&amp;family=Cairo:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<style>
+  :root{
+    --cream:#EAF4FC;
+    --cream-soft:#DCEDFA;
+    --paper:#FFFFFF;
+    --ink:#23303F;
+    --ink-soft:#54677E;
+    --night:#1F3C66;
+    --night-2:#16284A;
+    --coral:#FF7A45;
+    --coral-dark:#E6592A;
+    --coral-light:#FFE0CC;
+    --sage:#6F9C82;
+    --sage-light:#DCEBE0;
+    --sun:#FFC72C;
+    --sun-light:#FFF2C7;
+    --red:#E84855;
+    --red-dark:#C72E3A;
+    --red-light:#FFDADD;
+    --blue-deep:#16284A;
+    --line:#D7E6F5;
+    --shadow:rgba(22,40,74,0.14);
+    --font-display:'Baloo 2', sans-serif;
+    --font-body:'Inter', sans-serif;
+    --radius-lg:28px;
+    --radius-md:18px;
+    --radius-sm:12px;
+  }
+  html[dir="rtl"]{
+    --font-display:'Baloo Bhaijaan 2', sans-serif;
+    --font-body:'Cairo', sans-serif;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{-webkit-text-size-adjust:100%;}
+  @media (prefers-reduced-motion:no-preference){ html{scroll-behavior:smooth;} }
+  body{
+    font-family:var(--font-body);
+    background:var(--cream);
+    color:var(--ink);
+    line-height:1.65;
+    font-size:16px;
+    overflow-x:hidden;
+  }
+  img,svg{display:block;max-width:100%}
+  a{color:inherit;text-decoration:none}
+  ul{list-style:none}
+  button{font:inherit;cursor:pointer;background:none;border:none;color:inherit}
+  input,select{font:inherit}
+  h1,h2,h3,h4{font-family:var(--font-display);line-height:1.2;font-weight:700;color:var(--night)}
+  section{scroll-margin-top:84px}
+  .container{max-width:1180px;margin-inline:auto;padding-inline:clamp(20px,5vw,48px)}
+  .visually-hidden{position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden}
+
+  /* Skip link */
+  .skip-link{position:absolute;inset-inline-start:-999px;top:0;background:var(--night);color:#fff;padding:10px 16px;border-radius:0 0 10px 10px;z-index:200}
+  .skip-link:focus{inset-inline-start:12px}
+
+  :focus-visible{outline:3px solid var(--coral);outline-offset:3px;border-radius:6px}
+
+  /* Eyebrow */
+  .eyebrow{display:inline-flex;align-items:center;gap:8px;font-family:var(--font-display);font-weight:600;font-size:13.5px;letter-spacing:.02em;color:var(--coral-dark);background:var(--coral-light);padding:7px 16px;border-radius:999px;margin-bottom:14px}
+  .eyebrow svg{width:16px;height:16px}
+
+  /* Buttons */
+  .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;font-family:var(--font-display);font-weight:600;font-size:15.5px;padding:13px 26px;border-radius:999px;transition:transform .18s ease,box-shadow .18s ease,background .18s ease;white-space:nowrap}
+  .btn svg{width:18px;height:18px}
+  .btn-primary{background:var(--coral);color:#fff;box-shadow:0 10px 24px -8px rgba(255,122,89,.55)}
+  .btn-primary:hover{background:var(--coral-dark);transform:translateY(-2px)}
+  .btn-outline{background:transparent;color:var(--night);border:2px solid var(--night)}
+  .btn-outline:hover{background:var(--night);color:#fff;transform:translateY(-2px)}
+  .btn-light{background:var(--paper);color:var(--night);border:2px solid var(--line)}
+  .btn-light:hover{border-color:var(--night);transform:translateY(-2px)}
+  .btn-sm{padding:9px 18px;font-size:14px}
+
+  /* ---------- HEADER ---------- */
+  .site-header{position:sticky;top:0;z-index:100;background:rgba(251,245,234,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+  .header-inner{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-block:14px}
+  .brand{display:flex;align-items:center;gap:10px;font-family:var(--font-display);font-weight:700;font-size:17px;line-height:1.15;color:var(--night)}
+  .brand svg{width:40px;height:40px;flex-shrink:0}
+  .nav-desktop{display:none}
+  .nav-desktop ul{display:flex;align-items:center;gap:28px;font-weight:600;font-size:15px}
+  .nav-desktop a{position:relative;padding-block:6px;color:var(--ink-soft);transition:color .15s}
+  .nav-desktop a:hover{color:var(--coral-dark)}
+  .header-actions{display:flex;align-items:center;gap:10px}
+  .lang-toggle{display:flex;align-items:center;background:var(--cream-soft);border:1px solid var(--line);border-radius:999px;padding:3px;gap:2px;font-family:var(--font-body)}
+  .lang-toggle button{font-size:13px;font-weight:700;padding:6px 13px;border-radius:999px;color:var(--ink-soft);transition:background .15s,color .15s}
+  .lang-toggle button.active{background:var(--night);color:#fff}
+  .header-cta{display:none}
+  .menu-btn{display:inline-flex;align-items:center;justify-content:center;width:42px;height:42px;border-radius:12px;background:var(--cream-soft);border:1px solid var(--line)}
+  .menu-btn svg{width:22px;height:22px}
+  .menu-btn .icon-close{display:none}
+  .menu-btn[aria-expanded="true"] .icon-menu{display:none}
+  .menu-btn[aria-expanded="true"] .icon-close{display:block}
+
+  .mobile-menu{display:none;flex-direction:column;gap:4px;background:var(--paper);border-bottom:1px solid var(--line);padding:10px clamp(20px,5vw,48px) 22px}
+  .mobile-menu.open{display:flex}
+  .mobile-menu a{display:block;padding:12px 6px;font-weight:600;font-size:16px;border-bottom:1px solid var(--cream-soft)}
+  .mobile-menu .btn{margin-top:12px;width:100%}
+
+  @media (min-width:900px){
+    .nav-desktop{display:block}
+    .header-cta{display:inline-flex}
+    .menu-btn{display:none}
+    .mobile-menu{display:none !important}
+  }
+
+  /* ---------- HERO ---------- */
+  .hero{position:relative;padding-block:56px 70px;overflow:hidden}
+  .hero-blob{position:absolute;inset-inline-end:-120px;top:-80px;width:520px;height:520px;border-radius:50%;background:radial-gradient(circle at 35% 30%, var(--sun-light), transparent 70%);z-index:0;pointer-events:none}
+  .hero-blob-2{position:absolute;inset-inline-start:-160px;bottom:-160px;width:420px;height:420px;border-radius:50%;background:radial-gradient(circle at 60% 60%, var(--sage-light), transparent 70%);z-index:0;pointer-events:none}
+  .hero-grid{position:relative;z-index:1;display:grid;gap:42px;align-items:center}
+  .hero h1{font-size:clamp(34px,5vw,54px);margin-bottom:18px}
+  .hero h1 .accent{color:var(--coral)}
+  .hero p.lead{font-size:18px;color:var(--ink-soft);max-width:520px;margin-bottom:26px}
+  .hero-ctas{display:flex;flex-wrap:wrap;gap:14px;margin-bottom:30px}
+  .hero-trustline{display:flex;flex-wrap:wrap;align-items:center;gap:10px;font-size:14px;color:var(--ink-soft);font-weight:600}
+  .hero-trustline span.dot{width:5px;height:5px;border-radius:50%;background:var(--ink-soft);opacity:.5}
+  .hero-art{position:relative;justify-self:center;width:100%;max-width:480px}
+  @keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
+  @media (prefers-reduced-motion:no-preference){
+    .float-1{animation:bob 5s ease-in-out infinite}
+    .float-2{animation:bob 6.5s ease-in-out infinite .4s}
+    .float-3{animation:bob 4.5s ease-in-out infinite .8s}
+  }
+  @media (min-width:900px){
+    .hero-grid{grid-template-columns:1.05fr .95fr}
+  }
+
+  /* ---------- TRUST STRIP ---------- */
+  .trust-strip{background:var(--night);color:var(--cream)}
+  .trust-inner{display:flex;flex-wrap:wrap;justify-content:center;gap:14px 30px;padding-block:18px;font-size:14.5px;font-weight:600}
+  .trust-inner li{display:flex;align-items:center;gap:8px}
+  .trust-inner svg{width:17px;height:17px;color:var(--sun);flex-shrink:0}
+
+  /* ---------- SECTION HEADERS ---------- */
+  .section-head{max-width:640px;margin-bottom:44px}
+  .section-head.center{margin-inline:auto;text-align:center}
+  .section-head h2{font-size:clamp(26px,3.4vw,36px)}
+  .section-head p{color:var(--ink-soft);font-size:16px;margin-top:10px}
+
+  /* ---------- ABOUT ---------- */
+  .about{padding-block:80px}
+  .about-grid{display:grid;gap:36px}
+  .about-text p{color:var(--ink-soft);font-size:16.5px;margin-bottom:18px}
+  .value-chips{display:flex;flex-wrap:wrap;gap:12px;margin-top:6px}
+  .chip{display:flex;align-items:center;gap:9px;background:var(--paper);border:1px solid var(--line);border-radius:999px;padding:9px 16px 9px 12px;font-weight:600;font-size:14.5px;box-shadow:0 4px 14px -6px var(--shadow)}
+  html[dir="rtl"] .chip{padding:9px 12px 9px 16px}
+  .chip .badge{width:26px;height:26px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+  .chip svg{width:15px;height:15px}
+  .chip:nth-child(1) .badge{background:var(--coral-light);color:var(--coral-dark)}
+  .chip:nth-child(2) .badge{background:var(--sage-light);color:var(--sage)}
+  .chip:nth-child(3) .badge{background:var(--sun-light);color:#A6791A}
+  .about-card{background:var(--paper);border:1px solid var(--line);border-radius:var(--radius-lg);padding:32px;position:relative}
+  .about-card .quote-mark{font-family:var(--font-display);font-size:54px;color:var(--coral-light);line-height:1;margin-bottom:6px}
+  .about-card p{font-family:var(--font-display);font-size:21px;color:var(--night);font-weight:600;line-height:1.5}
+  .about-card .by{margin-top:16px;font-family:var(--font-body);font-size:14px;color:var(--ink-soft);font-weight:600}
+  @media (min-width:900px){ .about-grid{grid-template-columns:1.1fr .9fr} }
+
+  /* ---------- PROGRAMS / JOURNEY ---------- */
+  .programs{padding-block:80px;background:var(--cream-soft);position:relative;overflow:hidden}
+  .journey{position:relative}
+  .journey-wave{display:none}
+  .journey-list{display:flex;flex-direction:column;gap:18px;position:relative}
+  .journey-list::before{content:"";position:absolute;inset-inline-start:27px;top:8px;bottom:8px;width:2px;background-image:linear-gradient(var(--ink-soft) 0 6px, transparent 6px 12px);background-size:2px 12px;opacity:.35}
+  .stage{position:relative;display:flex;gap:18px;align-items:flex-start;background:var(--paper);border:1px solid var(--line);border-radius:var(--radius-md);padding:22px 22px 22px 22px;z-index:1}
+  .stage-node{flex-shrink:0;width:56px;height:56px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:var(--font-display);font-weight:700;box-shadow:0 6px 16px -6px var(--shadow)}
+  .stage-node svg{width:26px;height:26px}
+  .stage:nth-of-type(1) .stage-node{background:var(--sage-light);color:var(--sage)}
+  .stage:nth-of-type(2) .stage-node{background:var(--sun-light);color:#A6791A}
+  .stage:nth-of-type(3) .stage-node{background:var(--coral-light);color:var(--coral-dark)}
+  .stage:nth-of-type(4) .stage-node{background:var(--red-light);color:var(--red-dark)}
+  .stage-body h3{display:flex;align-items:baseline;gap:10px;font-size:21px;flex-wrap:wrap}
+  .stage-body .age{font-family:var(--font-body);font-size:13.5px;font-weight:700;color:var(--ink-soft);background:var(--cream-soft);padding:3px 10px;border-radius:999px}
+  .stage-body p{color:var(--ink-soft);margin-top:8px;font-size:15.5px}
+  @media (min-width:900px){
+    .journey-wave{display:block;position:absolute;inset-inline:0;top:60px;height:120px;z-index:0;opacity:.6}
+    .journey-list{flex-direction:row;align-items:stretch;gap:24px}
+    .journey-list::before{display:none}
+    .stage{flex-direction:column;text-align:center;align-items:center;flex:1;padding:30px 24px}
+    .stage:nth-of-type(1){transform:translateY(26px)}
+    .stage:nth-of-type(2){transform:translateY(-6px)}
+    .stage:nth-of-type(3){transform:translateY(20px)}
+    .stage:nth-of-type(4){transform:translateY(-10px)}
+    .stage-body h3{justify-content:center}
+  }
+
+  /* ---------- WHY US ---------- */
+  .why{padding-block:80px}
+  .why-grid{display:grid;gap:20px;grid-template-columns:1fr}
+  .feature{background:var(--paper);border:1px solid var(--line);border-radius:var(--radius-md);padding:28px;transition:transform .2s,box-shadow .2s}
+  .feature:hover{transform:translateY(-4px);box-shadow:0 16px 30px -14px var(--shadow)}
+  .feature .badge{width:52px;height:52px;border-radius:16px;display:flex;align-items:center;justify-content:center;margin-bottom:16px}
+  .feature .badge svg{width:26px;height:26px}
+  .feature:nth-child(1) .badge{background:var(--coral-light);color:var(--coral-dark)}
+  .feature:nth-child(2) .badge{background:var(--sun-light);color:#A6791A}
+  .feature:nth-child(3) .badge{background:var(--sage-light);color:var(--sage)}
+  .feature:nth-child(4) .badge{background:#E3E9F5;color:var(--night)}
+  .feature h3{font-size:18.5px;margin-bottom:8px}
+  .feature p{color:var(--ink-soft);font-size:15px}
+  @media (min-width:700px){ .why-grid{grid-template-columns:repeat(2,1fr)} }
+  @media (min-width:1080px){ .why-grid{grid-template-columns:repeat(4,1fr)} }
+
+  /* ---------- CONTACT ---------- */
+  .contact{padding-block:80px;background:var(--night);color:var(--cream);position:relative;overflow:hidden}
+  .contact::before{content:"";position:absolute;inset-inline-end:-100px;top:-100px;width:360px;height:360px;border-radius:50%;background:radial-gradient(circle, rgba(255,200,87,.14), transparent 70%)}
+  .contact .section-head h2{color:#fff}
+  .contact .section-head p{color:#C9D2E2}
+  .contact-grid{position:relative;z-index:1;display:grid;gap:28px}
+  .info-card{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.14);border-radius:var(--radius-lg);padding:30px}
+  .info-row{display:flex;gap:14px;align-items:flex-start;margin-bottom:20px}
+  .info-row:last-child{margin-bottom:0}
+  .info-row .badge{flex-shrink:0;width:40px;height:40px;border-radius:12px;background:rgba(255,255,255,.1);display:flex;align-items:center;justify-content:center}
+  .info-row svg{width:19px;height:19px;color:var(--sun)}
+  .info-row strong{display:block;font-size:13.5px;color:#9FB0CC;font-weight:700;margin-bottom:3px}
+  .info-row .val{font-size:15.5px;font-weight:600;color:inherit}
+  .info-card .wa-btn{margin-top:10px;width:100%;background:#fff;color:var(--night)}
+  .info-card .wa-btn:hover{background:var(--sun)}
+
+  .form-card{background:var(--paper);color:var(--ink);border-radius:var(--radius-lg);padding:30px}
+  .form-card h3{font-size:20px;margin-bottom:4px}
+  .form-card .sub{color:var(--ink-soft);font-size:14.5px;margin-bottom:20px}
+  .field{margin-bottom:16px}
+  .field label{display:block;font-size:13.5px;font-weight:700;color:var(--night);margin-bottom:6px}
+  .field input,.field select{width:100%;padding:12px 14px;border:1.5px solid var(--line);border-radius:var(--radius-sm);background:var(--cream-soft);font-size:15px;color:var(--ink);transition:border-color .15s}
+  .field input:focus,.field select:focus{border-color:var(--coral);background:#fff}
+  .hp-field{position:absolute;inset-inline-start:-9999px;top:auto;width:1px;height:1px;overflow:hidden}
+  .form-card .btn{width:100%;margin-top:4px}
+  .gcal-btn-wrap{min-height:52px}
+  .gcal-btn-wrap iframe{max-width:100%}
+  .gcal-btn-wrap .goog-inline-block{width:100% !important}
+  .gcal-fallback-link{display:block;text-align:center;margin-top:10px;font-size:14px;font-weight:600;color:var(--ink-soft);text-decoration:underline}
+  .gcal-fallback-link:hover{color:var(--coral-dark)}
+  .form-divider{display:flex;align-items:center;gap:12px;margin:22px 0 16px;font-size:13px;font-weight:700;color:var(--ink-soft)}
+  .form-divider::before,.form-divider::after{content:"";flex:1;height:1px;background:var(--line)}
+  .form-note{display:none;margin-top:14px;background:var(--sage-light);color:#2c4a3a;border-radius:var(--radius-sm);padding:14px 16px;font-size:14.5px;font-weight:600}
+  .form-note.show{display:block}
+  .form-note-error{background:var(--red-light);color:var(--red-dark)}
+  @media (min-width:980px){ .contact-grid{grid-template-columns:.85fr 1.15fr} }
+
+  /* ---------- FOOTER ---------- */
+  .site-footer{background:var(--night-2);color:#C9D2E2;padding-block:54px 26px}
+  .footer-grid{display:grid;gap:36px}
+  .footer-brand{display:flex;align-items:center;gap:10px;font-family:var(--font-display);font-weight:700;font-size:20px;color:#fff;margin-bottom:12px}
+  .footer-brand svg{width:36px;height:36px}
+  .footer-col p{font-size:14.5px;color:#9FB0CC;max-width:280px}
+  .footer-col h4{font-family:var(--font-display);color:#fff;font-size:15px;margin-bottom:14px}
+  .footer-col ul{display:flex;flex-direction:column;gap:10px;font-size:14.5px}
+  .footer-col a:hover{color:#fff}
+  .footer-col .info-row{margin-bottom:14px}
+  .footer-col .info-row .badge{width:32px;height:32px;background:rgba(255,255,255,.08)}
+  .footer-col .info-row svg{width:16px;height:16px}
+  .footer-col .info-row .val{font-size:14px;color:inherit}
+  .social-row{display:flex;gap:10px;margin-top:14px}
+  .social-row a{width:38px;height:38px;border-radius:10px;background:rgba(255,255,255,.08);display:flex;align-items:center;justify-content:center;transition:background .15s}
+  .social-row a:hover{background:var(--coral)}
+  .social-row svg{width:18px;height:18px}
+  .footer-bottom{margin-top:40px;padding-top:22px;border-top:1px solid rgba(255,255,255,.1);display:flex;flex-wrap:wrap;gap:14px;align-items:center;justify-content:space-between;font-size:13.5px;color:#8294B3}
+  .footer-bottom .lang-toggle{background:rgba(255,255,255,.06);border-color:rgba(255,255,255,.14)}
+  .footer-bottom .lang-toggle button{color:#C9D2E2}
+  .footer-bottom .lang-toggle button.active{background:var(--coral);color:#fff}
+  @media (min-width:760px){ .footer-grid{grid-template-columns:1.3fr 1fr 1fr} }
+
+  /* ---------- WHATSAPP FAB ---------- */
+  .wa-fab{position:fixed;inset-inline-end:18px;bottom:18px;z-index:90;width:58px;height:58px;border-radius:50%;background:#25D366;display:flex;align-items:center;justify-content:center;box-shadow:0 10px 24px -6px rgba(0,0,0,.35)}
+  .wa-fab svg{width:28px;height:28px;color:#fff}
+  .wa-fab:hover{transform:scale(1.06)}
+
+  /* ---------- REVEAL ---------- */
+  .reveal{opacity:0;transform:translateY(18px);transition:opacity .6s ease,transform .6s ease}
+  .reveal.is-visible{opacity:1;transform:translateY(0)}
+  @media (prefers-reduced-motion:reduce){ .reveal{opacity:1;transform:none;transition:none} }
+
+  /* ---------- LOGO IMAGE ---------- */
+  .brand img,.footer-brand img{width:84px;height:84px;border-radius:50%;object-fit:cover;flex-shrink:0;border:2px solid var(--sun)}
+  .footer-brand img{width:70px;height:70px}
+
+  /* ---------- SUBJECT CHIPS (KG2/KG3) ---------- */
+  .subjects{display:flex;flex-wrap:wrap;gap:7px;justify-content:center;margin-top:12px}
+  .subjects span{font-size:12px;font-weight:700;font-family:var(--font-body);background:var(--cream-soft);color:var(--night);border:1px solid var(--line);border-radius:999px;padding:5px 11px}
+
+  /* ---------- SUMMER CAMP PANEL ---------- */
+  .summer-panel{margin-top:34px;position:relative;border-radius:var(--radius-lg);overflow:hidden;background:linear-gradient(120deg,var(--sun) 0%,var(--coral) 55%,var(--red) 100%);padding:38px 28px;color:#fff;isolation:isolate}
+  .summer-panel::before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 14% 18%, rgba(255,255,255,.35), transparent 40%),radial-gradient(circle at 90% 80%, rgba(255,255,255,.25), transparent 45%);z-index:0}
+  .summer-panel-inner{position:relative;z-index:1}
+  .summer-head{display:flex;flex-wrap:wrap;align-items:center;gap:14px;justify-content:space-between;margin-bottom:22px}
+  .summer-head h3{color:#fff;font-size:clamp(22px,3vw,28px);display:flex;align-items:center;gap:10px}
+  .summer-badge{display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,.22);backdrop-filter:blur(4px);font-family:var(--font-display);font-weight:700;font-size:14px;padding:8px 16px;border-radius:999px}
+  .summer-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+  @media (min-width:640px){ .summer-grid{grid-template-columns:repeat(3,1fr)} }
+  @media (min-width:980px){ .summer-grid{grid-template-columns:repeat(7,1fr)} }
+  .summer-item{background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.3);border-radius:var(--radius-md);padding:16px 10px;text-align:center;font-weight:700;font-size:13.5px;transition:transform .2s,background .2s}
+  .summer-item:hover{transform:translateY(-4px);background:rgba(255,255,255,.27)}
+  .summer-item .emoji{font-size:30px;display:block;margin-bottom:8px}
+
+  /* ---------- FACILITY (3D CIRCULAR GALLERY) ---------- */
+  .facility{padding-block:80px;background:var(--cream-soft);position:relative;overflow:hidden}
+  .facility-blob{position:absolute;inset-inline-start:-140px;top:-100px;width:380px;height:380px;border-radius:50%;background:radial-gradient(circle, var(--sun-light), transparent 70%);z-index:0;pointer-events:none}
+  .sphere-wrap{position:relative;z-index:1;perspective:1400px;height:420px;display:flex;align-items:center;justify-content:center}
+  .sphere{position:relative;width:230px;height:230px;transform-style:preserve-3d;animation:spin 26s linear infinite}
+  @media (prefers-reduced-motion:reduce){ .sphere{animation:none} }
+  @keyframes spin{from{transform:rotateY(0deg)}to{transform:rotateY(360deg)}}
+  .sphere-item{position:absolute;inset:0;margin:auto;width:150px;height:150px;border-radius:50%;overflow:hidden;border:5px solid #fff;box-shadow:0 14px 30px -10px var(--shadow);background-size:cover;background-position:center;background-color:var(--cream-soft);display:flex;align-items:flex-end;justify-content:center}
+  .sphere-caption{position:absolute;bottom:-2px;inset-inline:0;background:rgba(0,0,0,.45);color:#fff;font-size:11px;font-weight:700;text-align:center;padding:4px 2px;backdrop-filter:blur(2px)}
+  .facility-note{max-width:640px;margin:30px auto 0;text-align:center;background:var(--paper);border:1px dashed var(--coral);border-radius:var(--radius-md);padding:16px 20px;font-size:14px;color:var(--ink-soft);font-weight:600}
+  .facility-grid-fallback{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-top:30px}
+  @media (min-width:700px){ .facility-grid-fallback{grid-template-columns:repeat(4,1fr)} }
+  .facility-card{aspect-ratio:1;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:40px;color:#fff;font-weight:700;box-shadow:0 10px 22px -10px var(--shadow);border:4px solid #fff;cursor:pointer}
+  .facility-card:nth-child(1){background:linear-gradient(135deg,var(--night),var(--blue-deep))}
+  .facility-card:nth-child(2){background:linear-gradient(135deg,var(--coral),var(--red))}
+  .facility-card:nth-child(3){background:linear-gradient(135deg,var(--sun),var(--coral))}
+  .facility-card:nth-child(4){background:linear-gradient(135deg,var(--sage),#3d6650)}
+
+  /* ---------- FULL FACILITY GALLERY ---------- */
+  .facility-full-gallery{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:20px}
+  @media (min-width:640px){ .facility-full-gallery{grid-template-columns:repeat(3,1fr)} }
+  @media (min-width:960px){ .facility-full-gallery{grid-template-columns:repeat(4,1fr)} }
+  .fg-item{aspect-ratio:1;border-radius:var(--radius-md);overflow:hidden;cursor:pointer;box-shadow:0 8px 18px -10px var(--shadow)}
+  .fg-item img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .35s ease}
+  .fg-item:hover img{transform:scale(1.07)}
+  .fg-lightbox{display:none;position:fixed;inset:0;background:rgba(20,20,25,.9);z-index:999;align-items:center;justify-content:center;padding:24px}
+  .fg-lightbox.show{display:flex}
+  .fg-lightbox img{max-width:92vw;max-height:88vh;border-radius:12px;box-shadow:0 20px 60px rgba(0,0,0,.5)}
+  .fg-lightbox-close{position:absolute;top:18px;inset-inline-end:22px;background:rgba(255,255,255,.15);color:#fff;border:0;width:44px;height:44px;border-radius:50%;font-size:26px;line-height:1;cursor:pointer}
+  .fg-lightbox-close:hover{background:rgba(255,255,255,.3)}
+
+  /* ---------- CARTOON DECORATIONS ---------- */
+  .cartoon-row{display:flex;justify-content:center;gap:18px;font-size:34px;margin-top:18px;opacity:.9}
+  /* ---------- ACTIVITIES PAGE ---------- */
+  .activities-hero{padding:150px 0 40px;text-align:center;background:linear-gradient(180deg,var(--cream-soft),var(--cream) 60%)}
+  .activities-hero h1{font-family:var(--font-display);font-size:clamp(32px,5vw,52px);color:var(--night);margin:0 0 12px}
+  .activities-hero p{color:var(--ink-soft);font-size:17px;max-width:620px;margin:0 auto}
+  .activities-gallery-section{padding:50px 0 90px}
+  .activities-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+  @media (min-width:640px){ .activities-grid{grid-template-columns:repeat(3,1fr)} }
+  @media (min-width:960px){ .activities-grid{grid-template-columns:repeat(4,1fr)} }
+  .ag-item{aspect-ratio:1;border-radius:var(--radius-md);overflow:hidden;cursor:pointer;box-shadow:0 8px 18px -10px var(--shadow)}
+  .ag-item img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .35s ease}
+  .ag-item:hover img{transform:scale(1.07)}
+  .fg-lightbox{display:none;position:fixed;inset:0;background:rgba(20,20,25,.9);z-index:999;align-items:center;justify-content:center;padding:24px}
+  .fg-lightbox.show{display:flex}
+  .fg-lightbox img{max-width:92vw;max-height:88vh;border-radius:12px;box-shadow:0 20px 60px rgba(0,0,0,.5)}
+  .fg-lightbox-close{position:absolute;top:18px;inset-inline-end:22px;background:rgba(255,255,255,.15);color:#fff;border:0;width:44px;height:44px;border-radius:50%;font-size:26px;line-height:1;cursor:pointer}
+  .fg-lightbox-close:hover{background:rgba(255,255,255,.3)}
+</style>
+<link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
+</head>
+<body>
+
+<a class="skip-link" data-ar="تخطى إلى المحتوى" data-en="Skip to content" href="#main">تخطى إلى المحتوى</a>
+
+<!-- Icon sprite -->
+<svg style="display:none" aria-hidden="true">
+  <symbol id="icon-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9.5"></circle><path d="M8 12.5l2.6 2.6L16 9.5"></path></symbol>
+  <symbol id="icon-shield" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v5c0 5.2-3.6 8.2-7 9.3-3.4-1.1-7-4.1-7-9.3V6l7-3z"></path><path d="M9 12.2l2.1 2.1L15.5 10"></path></symbol>
+  <symbol id="icon-bulb" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="10" r="5.2"></circle><path d="M10.2 9.8c.5-1.1 1.6-1.6 2.6-1"></path><rect x="9.8" y="15.4" width="4.4" height="3" rx="1"></rect><line x1="12" y1="2" x2="12" y2="3.6"></line><line x1="5" y1="6.2" x2="6.2" y2="7.2"></line><line x1="19" y1="6.2" x2="17.8" y2="7.2"></line></symbol>
+  <symbol id="icon-people" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8.4" r="2.6"></circle><path d="M4 19c0-3.3 2.2-5.4 5-5.4s5 2.1 5 5.4"></path><circle cx="16.6" cy="9.2" r="2"></circle><path d="M14 14.4c.6-.6 1.4-1 2.6-1 2.4 0 4 1.9 4 4.6"></path></symbol>
+  <symbol id="icon-bubble" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6.2A2.2 2.2 0 0 1 6.2 4h11.6A2.2 2.2 0 0 1 20 6.2v7.4a2.2 2.2 0 0 1-2.2 2.2H10l-4 3.6v-3.6H6.2A2.2 2.2 0 0 1 4 13.6V6.2z"></path><text x="7.3" y="12.4" font-size="6.4" stroke="none" fill="currentColor" font-family="sans-serif" font-weight="700">A</text><text x="13.4" y="12.6" font-size="6.6" stroke="none" fill="currentColor" font-family="sans-serif" font-weight="700">ع</text></symbol>
+  <symbol id="icon-sprout" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21v-8.4"></path><path d="M12 13c-4.4 0-7.4-3.2-7.4-7.4 4.4 0 7.4 3.2 7.4 7.4z"></path><path d="M12 13c4.4 0 7.4-3.2 7.4-7.4-4.4 0-7.4 3.2-7.4 7.4z"></path></symbol>
+  <symbol id="icon-blocks" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="10.5" width="8.6" height="8.6" rx="2"></rect><rect x="12.4" y="5" width="8.6" height="8.6" rx="2"></rect></symbol>
+  <symbol id="icon-cap" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5l9.3 4.3L12 13.6 2.7 9.3 12 5z"></path><path d="M6.4 11.2v4c0 1.7 2.7 3.3 5.6 3.3s5.6-1.6 5.6-3.3v-4"></path><path d="M21 9.7v5.4"></path></symbol>
+  <symbol id="icon-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s7-6.3 7-11.5A7 7 0 1 0 5 9.5C5 14.7 12 21 12 21z"></path><circle cx="12" cy="9.5" r="2.4"></circle></symbol>
+  <symbol id="icon-clock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><path d="M12 7.5V12l3.2 2"></path></symbol>
+  <symbol id="icon-phone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6.6 3.8h2.7l1.4 4.3-2 1.6a11.4 11.4 0 0 0 5.6 5.6l1.6-2 4.3 1.4v2.7c0 1.2-1 2.1-2.2 2-5.8-.6-10.5-5.3-11.1-11.1-.1-1.2.8-2.2 2-2.2z"></path></symbol>
+  <symbol id="icon-mail" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5.5" width="18" height="13" rx="2.4"></rect><path d="M4 7l8 5.6L20 7"></path></symbol>
+  <symbol id="icon-menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="4" y1="7" x2="20" y2="7"></line><line x1="4" y1="12" x2="20" y2="12"></line><line x1="4" y1="17" x2="20" y2="17"></line></symbol>
+  <symbol id="icon-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="5" y1="5" x2="19" y2="19"></line><line x1="19" y1="5" x2="5" y2="19"></line></symbol>
+  <symbol id="icon-whatsapp" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20l1.3-4A8 8 0 1 1 9 18.6L4 20z"></path><path d="M9 11c.3 1.6 2 3.3 3.6 3.6"></path></symbol>
+  <symbol id="icon-camera" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="6.5" width="18" height="13" rx="3"></rect><circle cx="12" cy="13" r="3.6"></circle><line x1="8" y1="6.5" x2="9.5" y2="4.5"></line><line x1="16" y1="6.5" x2="14.5" y2="4.5"></line></symbol>
+  <symbol id="icon-facebook" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 21v-7.2h2.4l.4-2.8h-2.8v-1.8c0-.8.2-1.4 1.4-1.4h1.5V5.3C16.9 5.2 16 5.1 15 5.1c-2.2 0-3.7 1.3-3.7 3.8v2.1H8.9v2.8h2.4V21"></path></symbol>
+  <symbol id="icon-tiktok" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M16.5 3v9.6a3.9 3.9 0 1 1-3.9-3.9c.2 0 .4 0 .6.04"></path><path d="M16.5 3c.2 2.1 1.7 3.7 3.8 3.9"></path></symbol>
+  <symbol id="icon-calendar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="5" width="17" height="16" rx="2.4"></rect><line x1="3.5" y1="9.5" x2="20.5" y2="9.5"></line><line x1="8" y1="3" x2="8" y2="6.6"></line><line x1="16" y1="3" x2="16" y2="6.6"></line></symbol>
+  <symbol id="icon-sun-mark" viewBox="0 0 60 60"></symbol>
+</svg>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="brand">
+      <img src="logo.jpg" alt="Kiddy Kids Nursery &amp; Pre-School logo">
+      <span data-ar="Kiddy Kids Nursery Pre-School" data-en="Kiddy Kids Nursery Pre-School">Kiddy Kids Nursery Pre-School</span>
+    </a>
+
+    <nav class="nav-desktop" aria-label="Primary">
+      <ul>
+        <li><a href="index.html#home" data-ar="الرئيسية" data-en="Home">الرئيسية</a></li>
+        <li><a href="index.html#about" data-ar="من نحن" data-en="About">من نحن</a></li>
+        <li><a href="index.html#programs" data-ar="برامجنا" data-en="Programs">برامجنا</a></li>
+        <li><a href="index.html#facility" data-ar="منشأتنا" data-en="Our Facility">منشأتنا</a></li>
+        <li><a href="activities.html" data-ar="الأنشطة" data-en="Activities">الأنشطة</a></li>
+        <li><a href="index.html#why" data-ar="لماذا نحن" data-en="Why Us">لماذا نحن</a></li>
+        <li><a href="index.html#contact" data-ar="تواصل معنا" data-en="Contact">تواصل معنا</a></li>
+      </ul>
+    </nav>
+
+    <div class="header-actions">
+      <div class="lang-toggle" role="group" aria-label="Language / اللغة">
+        <button type="button" id="langArBtn" class="active" data-lang="ar">AR</button>
+        <button type="button" id="langEnBtn" data-lang="en">EN</button>
+      </div>
+      <a href="index.html#contact" class="btn btn-primary header-cta btn-sm" data-ar="احجزوا زيارة" data-en="Book a Visit">احجزوا زيارة</a>
+      <button type="button" class="menu-btn" id="menuBtn" aria-label="Menu" aria-expanded="false" aria-controls="mobileMenu">
+        <svg class="icon-menu" aria-hidden="true"><use href="#icon-menu"></use></svg>
+        <svg class="icon-close" aria-hidden="true"><use href="#icon-close"></use></svg>
+      </button>
+    </div>
+  </div>
+
+  <nav class="mobile-menu" id="mobileMenu" aria-label="Mobile">
+    <a href="index.html#home" data-ar="الرئيسية" data-en="Home">الرئيسية</a>
+    <a href="index.html#about" data-ar="من نحن" data-en="About">من نحن</a>
+    <a href="index.html#programs" data-ar="برامجنا" data-en="Programs">برامجنا</a>
+    <a href="index.html#facility" data-ar="منشأتنا" data-en="Our Facility">منشأتنا</a>
+    <a href="activities.html" data-ar="الأنشطة" data-en="Activities">الأنشطة</a>
+    <a href="index.html#why" data-ar="لماذا نحن" data-en="Why Us">لماذا نحن</a>
+    <a href="index.html#contact" data-ar="تواصل معنا" data-en="Contact">تواصل معنا</a>
+    <a href="index.html#contact" class="btn btn-primary" data-ar="احجزوا زيارة" data-en="Book a Visit">احجزوا زيارة</a>
+  </nav>
+</header>
+
+<main id="main">
+
+  <!-- ============ ACTIVITIES HERO ============ -->
+  <section class="activities-hero">
+    <div class="container">
+      <span class="eyebrow" style="background:var(--coral-light);color:var(--coral-dark);display:inline-flex">
+        <svg aria-hidden="true"><use href="#icon-bulb"></use></svg>
+        <span data-ar="لحظات من يومهم" data-en="Moments from their day">لحظات من يومهم</span>
+      </span>
+      <h1 data-ar="أنشطتنا" data-en="Our Activities">أنشطتنا</h1>
+      <p data-ar="لمحة عن الأنشطة التعليمية والترفيهية اليومية التي يعيشها أطفالنا في Kiddy Kids." data-en="A glimpse into the daily learning and play activities our children enjoy at Kiddy Kids.">لمحة عن الأنشطة التعليمية والترفيهية اليومية التي يعيشها أطفالنا في Kiddy Kids.</p>
+    </div>
+  </section>
+
+  <!-- ============ ACTIVITIES GALLERY ============ -->
+  <section class="activities-gallery-section">
+    <div class="container">
+      <div class="activities-grid" id="activitiesGallery">
+        <div class="ag-item"><img src="images/activities/activity1.jpg" loading="lazy" alt="Kiddy Kids activity"></div>
+        <div class="ag-item"><img src="images/activities/activity2.jpg" loading="lazy" alt="Kiddy Kids activity"></div>
+        <div class="ag-item"><img src="images/activities/activity3.jpg" loading="lazy" alt="Kiddy Kids activity"></div>
+        <div class="ag-item"><img src="images/activities/activity4.jpg" loading="lazy" alt="Kiddy Kids activity"></div>
+        <div class="ag-item"><img src="images/activities/activity5.jpg" loading="lazy" alt="Kiddy Kids activity"></div>
+        <div class="ag-item"><img src="images/activities/activity6.jpg" loading="lazy" alt="Kiddy Kids activity"></div>
+        <div class="ag-item"><img src="images/activities/activity7.jpg" loading="lazy" alt="Kiddy Kids activity"></div>
+        <div class="ag-item"><img src="images/activities/activity8.jpg" loading="lazy" alt="Kiddy Kids activity"></div>
+        <div class="ag-item"><img src="images/activities/activity9.jpg" loading="lazy" alt="Kiddy Kids activity"></div>
+        <div class="ag-item"><img src="images/activities/activity10.jpg" loading="lazy" alt="Kiddy Kids activity"></div>
+        <div class="ag-item"><img src="images/activities/activity11.jpg" loading="lazy" alt="Kiddy Kids activity"></div>
+        <div class="ag-item"><img src="images/activities/activity12.jpg" loading="lazy" alt="Kiddy Kids activity"></div>
+        <div class="ag-item"><img src="images/activities/activity13.jpg" loading="lazy" alt="Kiddy Kids activity"></div>
+        <div class="ag-item"><img src="images/activities/activity14.jpg" loading="lazy" alt="Kiddy Kids activity"></div>
+        <div class="ag-item"><img src="images/activities/activity15.jpg" loading="lazy" alt="Kiddy Kids activity"></div>
+        <div class="ag-item"><img src="images/activities/activity16.jpg" loading="lazy" alt="Kiddy Kids activity"></div>
+        <div class="ag-item"><img src="images/activities/activity17.jpg" loading="lazy" alt="Kiddy Kids activity"></div>
+        <div class="ag-item"><img src="images/activities/activity18.jpg" loading="lazy" alt="Kiddy Kids activity"></div>
+        <div class="ag-item"><img src="images/activities/activity19.jpg" loading="lazy" alt="Kiddy Kids activity"></div>
+        <div class="ag-item"><img src="images/activities/activity20.jpg" loading="lazy" alt="Kiddy Kids activity"></div>
+        <div class="ag-item"><img src="images/activities/activity21.jpg" loading="lazy" alt="Kiddy Kids activity"></div>
+        <div class="ag-item"><img src="images/activities/activity22.jpg" loading="lazy" alt="Kiddy Kids activity"></div>
+        <div class="ag-item"><img src="images/activities/activity23.jpg" loading="lazy" alt="Kiddy Kids activity"></div>
+        <div class="ag-item"><img src="images/activities/activity24.jpg" loading="lazy" alt="Kiddy Kids activity"></div>
+        <div class="ag-item"><img src="images/activities/activity25.jpg" loading="lazy" alt="Kiddy Kids activity"></div>
+        <div class="ag-item"><img src="images/activities/activity26.jpg" loading="lazy" alt="Kiddy Kids activity"></div>
+        <div class="ag-item"><img src="images/activities/activity27.jpg" loading="lazy" alt="Kiddy Kids activity"></div>
+        <div class="ag-item"><img src="images/activities/activity28.jpg" loading="lazy" alt="Kiddy Kids activity"></div>
+      </div>
+
+      <div style="text-align:center;margin-top:44px">
+        <a href="https://wa.me/97332314680" target="_blank" rel="noopener" class="btn btn-primary" id="activitiesWaCta">
+          <svg aria-hidden="true"><use href="#icon-whatsapp"></use></svg>
+          <span data-ar="تواصلوا معنا لمزيد من المعلومات" data-en="Contact us for more information">تواصلوا معنا لمزيد من المعلومات</span>
+        </a>
+      </div>
+    </div>
+
+    <div id="agLightbox" class="fg-lightbox" role="dialog" aria-modal="true">
+      <button type="button" class="fg-lightbox-close" aria-label="Close">&times;</button>
+      <img id="agLightboxImg" src="" alt="">
+    </div>
+  </section>
+
+</main>
+
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-col">
+      <div class="footer-brand">
+        <img src="logo.jpg" alt="Kiddy Kids Nursery &amp; Pre-School logo">
+        <span>Kiddy Kids Nursery Pre-School</span>
+      </div>
+      <p data-ar="حضانة وروضة تقدّم بيئة تعليمية آمنة وممتعة ثنائية اللغة من عمر 4 أشهر حتى 6 سنوات، لمراحل Nursery وKG1 وKG2 وKG3، مع مخيّم صيفي." data-en="A nursery &amp; pre-school offering a safe, joyful bilingual learning home from 4 months to 6 years — Nursery, KG1, KG2, KG3 and a Summer Camp.">حضانة وروضة تقدّم بيئة تعليمية آمنة وممتعة ثنائية اللغة من عمر 4 أشهر حتى 6 سنوات، لمراحل Nursery وKG1 وKG2 وKG3، مع مخيّم صيفي.</p>
+      <div class="social-row">
+        <a href="https://wa.me/97332314680" target="_blank" rel="noopener" aria-label="WhatsApp"><svg aria-hidden="true"><use href="#icon-whatsapp"></use></svg></a>
+        <a href="https://instagram.com/kiddykids.hidd" target="_blank" rel="noopener" aria-label="Instagram"><svg aria-hidden="true"><use href="#icon-camera"></use></svg></a>
+        <a href="https://www.facebook.com/share/14eBBFdQ3hk/" target="_blank" rel="noopener" aria-label="Facebook"><svg aria-hidden="true"><use href="#icon-facebook"></use></svg></a>
+        <a href="https://www.tiktok.com/@kiddykidshidd?_r=1&amp;_t=ZS-97gi1iemHjN" target="_blank" rel="noopener" aria-label="TikTok"><svg aria-hidden="true"><use href="#icon-tiktok"></use></svg></a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4 data-ar="روابط سريعة" data-en="Quick Links">روابط سريعة</h4>
+      <ul>
+        <li><a href="index.html#home" data-ar="الرئيسية" data-en="Home">الرئيسية</a></li>
+        <li><a href="index.html#about" data-ar="من نحن" data-en="About">من نحن</a></li>
+        <li><a href="index.html#programs" data-ar="برامجنا" data-en="Programs">برامجنا</a></li>
+        <li><a href="index.html#facility" data-ar="منشأتنا" data-en="Our Facility">منشأتنا</a></li>
+        <li><a href="activities.html" data-ar="الأنشطة" data-en="Activities">الأنشطة</a></li>
+        <li><a href="index.html#why" data-ar="لماذا نحن" data-en="Why Us">لماذا نحن</a></li>
+        <li><a href="index.html#contact" data-ar="تواصل معنا" data-en="Contact">تواصل معنا</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4 data-ar="تواصل معنا" data-en="Contact">تواصل معنا</h4>
+      <div class="info-row">
+        <span class="badge"><svg aria-hidden="true"><use href="#icon-pin"></use></svg></span>
+        <a class="val" href="https://share.google/D7JrBN8p3W97x8ab2" target="_blank" rel="noopener" data-ar="الحد، البحرين" data-en="Hidd, Bahrain">الحد، البحرين</a>
+      </div>
+      <div class="info-row">
+        <span class="badge"><svg aria-hidden="true"><use href="#icon-phone"></use></svg></span>
+        <span class="val" data-ar="+973 3231 4680" data-en="+973 3231 4680">+973 3231 4680</span>
+      </div>
+      <div class="info-row">
+        <span class="badge"><svg aria-hidden="true"><use href="#icon-mail"></use></svg></span>
+        <span class="val" data-ar="Kiddykids824@gmail.com" data-en="Kiddykids824@gmail.com">Kiddykids824@gmail.com</span>
+      </div>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <span><span data-ar="© " data-en="© ">© </span><span id="yearNow">2026</span><span data-ar=" Kiddy Kids Nursery &amp; Pre-School — جميع الحقوق محفوظة" data-en=" Kiddy Kids Nursery &amp; Pre-School — All rights reserved"> Kiddy Kids Nursery &amp; Pre-School — جميع الحقوق محفوظة</span></span>
+    <div class="lang-toggle" role="group" aria-label="Language / اللغة">
+      <button type="button" class="lang-btn-footer active" data-lang="ar">AR</button>
+      <button type="button" class="lang-btn-footer" data-lang="en">EN</button>
+    </div>
+  </div>
+</footer>
+
+<a href="https://wa.me/97332314680" target="_blank" rel="noopener" class="wa-fab" aria-label="WhatsApp">
+  <svg aria-hidden="true"><use href="#icon-whatsapp"></use></svg>
+</a>
+
+<script>
+(function(){
+  "use strict";
+
+  /* ---------- Language switching ---------- */
+  function setLanguage(lang){
+    var isAr = lang === 'ar';
+    document.documentElement.lang = isAr ? 'ar' : 'en';
+    document.documentElement.dir = isAr ? 'rtl' : 'ltr';
+    try { localStorage.setItem('kk_lang', isAr ? 'ar' : 'en'); } catch(e){}
+
+    document.querySelectorAll('[data-ar-html]').forEach(function(el){
+      el.innerHTML = isAr ? el.getAttribute('data-ar-html') : el.getAttribute('data-en-html');
+    });
+    document.querySelectorAll('[data-ar]:not([data-ar-html])').forEach(function(el){
+      var text = isAr ? el.getAttribute('data-ar') : el.getAttribute('data-en');
+      if (text !== null) el.textContent = text;
+    });
+
+    document.querySelectorAll('#langArBtn, .lang-btn-footer[data-lang="ar"]').forEach(function(b){ b.classList.toggle('active', isAr); });
+    document.querySelectorAll('#langEnBtn, .lang-btn-footer[data-lang="en"]').forEach(function(b){ b.classList.toggle('active', !isAr); });
+
+    if (typeof updateWhatsAppLinks === 'function') updateWhatsAppLinks();
+  }
+
+  document.querySelectorAll('[data-lang]').forEach(function(btn){
+    btn.addEventListener('click', function(){ setLanguage(btn.getAttribute('data-lang')); });
+  });
+
+  try {
+    var savedLang = localStorage.getItem('kk_lang');
+    if (savedLang === 'en') setLanguage('en');
+  } catch(e){}
+
+  /* ---------- Mobile menu ---------- */
+  var menuBtn = document.getElementById('menuBtn');
+  var mobileMenu = document.getElementById('mobileMenu');
+  menuBtn.addEventListener('click', function(){
+    var open = mobileMenu.classList.toggle('open');
+    menuBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+  mobileMenu.querySelectorAll('a').forEach(function(a){
+    a.addEventListener('click', function(){
+      mobileMenu.classList.remove('open');
+      menuBtn.setAttribute('aria-expanded', 'false');
+    });
+  });
+  document.addEventListener('keydown', function(e){
+    if (e.key === 'Escape' && mobileMenu.classList.contains('open')){
+      mobileMenu.classList.remove('open');
+      menuBtn.setAttribute('aria-expanded', 'false');
+    }
+  });
+
+  /* ---------- Footer year ---------- */
+  var y = document.getElementById('yearNow');
+  if (y) y.textContent = new Date().getFullYear();
+
+  /* ---------- WhatsApp pre-filled message (by site language) ---------- */
+  var WA_NUMBER = '97332314680';
+  var WA_MESSAGES = {
+    ar: "السلام عليكم 🌸\nأرغب في الاستفسار عن التسجيل في Kiddy Kids Nursery & Pre-School والبرامج المتاحة لطفلي. 😊",
+    en: "Hello 🌸\nI would like to inquire about registration at Kiddy Kids Nursery & Pre-School and the available programs for my child. 😊"
+  };
+  function updateWhatsAppLinks(){
+    var isAr = document.documentElement.lang === 'ar';
+    var text = encodeURIComponent(isAr ? WA_MESSAGES.ar : WA_MESSAGES.en);
+    document.querySelectorAll('a[href^="https://wa.me/' + WA_NUMBER + '"]').forEach(function(a){
+      a.setAttribute('href', 'https://wa.me/' + WA_NUMBER + '?text=' + text);
+    });
+  }
+  updateWhatsAppLinks();
+
+  /* ---------- Activities gallery lightbox ---------- */
+  var agLightbox = document.getElementById('agLightbox');
+  var agLightboxImg = document.getElementById('agLightboxImg');
+  if (agLightbox && agLightboxImg){
+    document.querySelectorAll('.ag-item img').forEach(function(img){
+      img.addEventListener('click', function(){
+        agLightboxImg.src = img.src;
+        agLightbox.classList.add('show');
+      });
+    });
+    agLightbox.addEventListener('click', function(e){
+      if (e.target === agLightbox || e.target.classList.contains('fg-lightbox-close')){
+        agLightbox.classList.remove('show');
+        agLightboxImg.src = '';
+      }
+    });
+    document.addEventListener('keydown', function(e){
+      if (e.key === 'Escape') { agLightbox.classList.remove('show'); agLightboxImg.src=''; }
+    });
+  }
+
+})();
+</script>
+
+</body>
+</html>
